@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c28270bd-b78a-441a-b371-ba0f49ce8d9a" extendedConfigurationObject="17aadd5f-cda2-4785-a07f-3ab4b04434a6">
+  <producedTypes>
+    <selectionType typeId="201f0dd6-8d12-48de-af06-f66cafd4a4a2" valueTypeId="16c0cd25-7a51-4c41-9dd3-55e7ba531c55"/>
+    <listType typeId="7dbf1bf5-34f0-4b93-a43e-34bb105e0c94" valueTypeId="bdf8ef38-0cb5-42a5-946b-20bbe7ffa9fe"/>
+    <managerType typeId="24040e32-29cb-4ab6-b543-28107ee8eaeb" valueTypeId="b1f9c4e4-13a7-4cb2-acde-cae2dbd9af96"/>
+    <recordSetType typeId="06f439a2-f525-4489-b327-e7aa1516454f" valueTypeId="abe3f129-2ffb-42b6-a6c8-5b05e9b9fdbc"/>
+    <recordKeyType typeId="223b867f-c9c2-4c13-93af-d28141ee7a4b" valueTypeId="eb4e7e7a-93f7-4823-af04-5fb74b1cdfc7"/>
+    <recordType typeId="1d93c579-be0e-4468-ae31-d47859fe68a8" valueTypeId="87104cd9-1120-41fd-b7d3-0dbd195f7981"/>
+    <recordManagerType typeId="e2531937-a247-4846-8bd0-3e1a4ee2d185" valueTypeId="8e1e527d-7b80-4a0c-b01d-d3ed9dff4b68"/>
+  </producedTypes>
+  <name>КалендарныеГрафики</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="c41d0894-2ac5-4f6b-9bbc-0fa3b6dc5505" extendedConfigurationObject="71bc35e6-0fec-4e54-af2d-23d1357d1c3b">
+    <name>ДеньВключенВГрафик</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="7c59f786-145a-4e6d-a9e0-cfbafbf8155e" extendedConfigurationObject="ff9f7b5c-70f4-4eed-8216-64448e7da76f">
+    <name>Календарь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Календари</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="44e28efb-42df-4f05-9744-1289ddad7404" extendedConfigurationObject="44ac2869-990d-4cac-a14b-c1a28854341e">
+    <name>Год</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="2203c87a-add6-4eb0-9aa8-4e5dbe3b6011" extendedConfigurationObject="d5df31c3-89f9-469c-80a9-fb4706d30bc4">
+    <name>ДатаГрафика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

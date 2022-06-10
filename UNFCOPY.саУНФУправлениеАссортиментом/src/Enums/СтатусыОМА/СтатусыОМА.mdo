@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="035e5156-ed9b-4b92-9482-6d109f0003d8">
+  <producedTypes>
+    <refType typeId="c1df8459-7fa9-4831-b4d2-cc9d3dd1273e" valueTypeId="69b6bb4f-cfe4-4e54-8449-04ae7247d444"/>
+    <listType typeId="679d2a14-9ea6-42cd-8d5e-f7f1bbd7aa4e" valueTypeId="391019dc-5dd6-402e-b42e-6c8102bf5b60"/>
+    <managerType typeId="4ff82308-a097-4cfd-9dfd-b455f0778ead" valueTypeId="9ea9b3d4-c687-4ec8-a228-806959cee384"/>
+  </producedTypes>
+  <name>СтатусыОМА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ОМА</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="647ea909-ee28-4f3a-b74d-dd2e68d4151c">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9297dd3-eb53-4a03-842c-952e4f404ee9">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5e8cad5-79ba-4427-8736-06acdc9fb225">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85ff29f5-4491-47d6-b552-6eda375ca7a2">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b04c4d9-a0be-40fa-a87f-50fa934082f8">
+    <name>ВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>В пути</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5e3c4da-47e9-4d9b-8bea-3c6ac1ba7131">
+    <name>НаРТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>На РТТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fd9b719-9208-4bd4-a0f1-0f3011614276">
+    <name>Выдан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcb1dbba-d9f8-406b-a90b-ca32aeacb86d">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96ae5137-ccdd-4995-8c8a-ad3173a76109">
+    <name>ГотовКВозврату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к возврату</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

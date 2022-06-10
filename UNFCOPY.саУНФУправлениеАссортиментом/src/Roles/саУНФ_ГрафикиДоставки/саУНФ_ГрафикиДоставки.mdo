@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d66b32bf-e36a-4c47-b8bc-6b1c7bf5035e">
+  <name>саУНФ_ГрафикиДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>(са)Графики доставки</value>
+  </synonym>
+</mdclass:Role>

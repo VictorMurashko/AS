@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="563efedc-be58-465c-b0b2-c50efcb96bce">
+  <producedTypes>
+    <objectType typeId="3bb3ba90-f622-428e-b595-d1fdbcbb4672" valueTypeId="0257b8ff-df09-41da-89ff-f5f72c3ad385"/>
+    <managerType typeId="f862a1c8-6074-4c67-bbdf-9e26075beb64" valueTypeId="031b5dd3-2738-48b1-b1b2-4f0a224d3289"/>
+  </producedTypes>
+  <name>саУНФ_РезервыСЗаказомСнабжения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров на складах (с автозаказом)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчетаУНФ</defaultForm>
+  <mainDataCompositionSchema>Report.саУНФ_РезервыСЗаказомСнабжения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c849298a-0476-40cc-8c98-fa4276c506ba">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="4b566cfb-81f3-4761-a4fd-455d847918dd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="1db78aac-c064-415d-a753-16f3ce5f5054">
+    <name>ОбразецОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец основной</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="59d641f3-0213-4263-9635-1007ed2f0a2d">
+    <name>ОбразецСвободныеОстаткиКонтекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец свободные остатки контекст</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

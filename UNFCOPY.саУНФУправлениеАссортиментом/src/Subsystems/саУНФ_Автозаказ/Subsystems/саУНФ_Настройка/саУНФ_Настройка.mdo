@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc07d589-eef0-478d-9b73-6828da8efd82">
+  <name>саУНФ_Настройка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.саУНФ_ФорматыМагазинов</content>
+  <content>Catalog.ШаблоныЗаполненияГрафиковМагазиновИФилиалов</content>
+  <content>Catalog.ГрафикиРаботыМагазиновИФилиалов</content>
+  <content>InformationRegister.ГрафикиРаботыМагазиновИФилиалов</content>
+  <parentSubsystem>Subsystem.саУНФ_Автозаказ</parentSubsystem>
+</mdclass:Subsystem>

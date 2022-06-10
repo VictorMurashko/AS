@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9683b697-97a1-4e53-a912-411763016abd">
+  <name>ОМА</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОМА</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНастройкиНовостейПлоский</picture>
+  </picture>
+  <content>ExchangePlan.ОбменСтатусамиОМА</content>
+  <content>Enum.СтатусыОМА</content>
+  <content>InformationRegister.ОМА_НастройкаОбменов</content>
+  <content>InformationRegister.ОМА_ХранениеЗначений</content>
+  <content>Catalog.Номенклатура</content>
+  <content>CommonCommand.саУНФ_АРМ_Диспетчер_ОМА</content>
+  <content>CommonCommand.саУНФ_АРМ_Склад_ОМА</content>
+  <content>InformationRegister.ОМА_СостоянияЗаказов</content>
+  <content>Document.ЗаказПокупателя</content>
+</mdclass:Subsystem>

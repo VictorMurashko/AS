@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d186c9a4-7a05-448c-8ff3-53ac0d482e5f" extendedConfigurationObject="9b49c443-8e43-46e8-9f78-e79366f16edc">
+  <producedTypes>
+    <objectType typeId="ecabd879-5fa6-4fb7-9065-cf0c56a5c8de" valueTypeId="90edca53-6b56-40db-b4dd-d34dd7fb1297"/>
+    <refType typeId="6f6ca51c-653c-42f4-910c-e51bb1214430" valueTypeId="0aa21647-dc27-4d6b-9944-bc34f7bfc02a"/>
+    <selectionType typeId="7c583422-68ad-4b0f-b88f-c701544c3d07" valueTypeId="4ed9eefd-5d8c-49e9-8253-1ffc0ce08adb"/>
+    <listType typeId="51ae4b5c-1b9a-4870-a794-c1d0b5f4ecb2" valueTypeId="ce45e480-6531-4e81-adae-85d54e42b855"/>
+    <managerType typeId="d4cd8986-fb03-476b-bdee-b6fd704cfbf7" valueTypeId="2edefc3f-779a-4ff4-b76f-64cf4661f5ee"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="4b72b01f-d8bc-4b72-a00e-0756460b61b8" extendedConfigurationObject="5ffc3fd5-0d02-433f-8f0b-c908c67c5770">
+    <name>НомерТелефонаДляПоиска</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

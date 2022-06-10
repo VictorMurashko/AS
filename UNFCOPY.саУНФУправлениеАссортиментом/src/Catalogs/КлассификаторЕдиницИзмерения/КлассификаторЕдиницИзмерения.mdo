@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="34c9dfa9-4d2e-4416-9b94-55092dd4f76f" extendedConfigurationObject="efad9316-ebd0-45d1-81d0-4717759dea54">
+  <producedTypes>
+    <objectType typeId="add102e1-81fc-4cbc-be0b-826e1d834075" valueTypeId="28b22213-7af1-4c9f-b867-c521a5e7e2ab"/>
+    <refType typeId="346d5e58-f776-480f-81ea-e120ea449057" valueTypeId="04df06dd-38fc-4aac-84dd-0c5d385c69ad"/>
+    <selectionType typeId="0be07af2-fd79-4a6e-9293-ecbad456c762" valueTypeId="ff750a94-f54b-4447-bd71-1c41c65e628c"/>
+    <listType typeId="741b757a-ad84-480a-b913-bdfdc01efe69" valueTypeId="b7a6e8d9-0d7b-4592-9228-665b8a573139"/>
+    <managerType typeId="1a49b8de-2785-4b6a-8011-b85bdfff0770" valueTypeId="0c7ab6e1-7849-474f-a986-4387534d9243"/>
+  </producedTypes>
+  <name>КлассификаторЕдиницИзмерения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

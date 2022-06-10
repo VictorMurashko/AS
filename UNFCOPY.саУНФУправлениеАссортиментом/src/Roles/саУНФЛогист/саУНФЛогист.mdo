@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3bbc4b3b-1b94-46f3-9002-e884144d4c10" extendedConfigurationObject="f98e047b-6421-4b39-be79-2ee426aef589">
+  <name>саУНФЛогист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:RoleExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <rights>Extended</rights>
+  </extension>
+</mdclass:Role>

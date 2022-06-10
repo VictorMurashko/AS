@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="acb18533-3360-45ae-a8b4-a6d52d3a86ac" extendedConfigurationObject="f711faaa-425b-4284-851b-dc7503ad0b62">
+  <producedTypes>
+    <refType typeId="e07646fd-f555-4516-a6d8-aaf18455ed97" valueTypeId="6df732bc-b591-41c1-8159-8f841b2d5477"/>
+    <listType typeId="8ff5d13a-ecc9-4040-aff9-2539d5a30578" valueTypeId="5f70c226-e73c-42bd-8e67-39284b91b3a7"/>
+    <managerType typeId="43b9b865-fd4d-4876-80f3-cc186d562bc5" valueTypeId="87515789-3f24-4c53-a53f-18c4225a269c"/>
+  </producedTypes>
+  <name>ВидыОперацийПеремещениеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="97415f17-e9f8-4764-9a20-108a0c905a63" extendedConfigurationObject="45af93a9-f638-47fc-9003-cee106c2b682">
+    <name>Перемещение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

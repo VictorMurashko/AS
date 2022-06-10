@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c86bc179-e5fa-4c1b-b0e3-46ded6fdef0d" extendedConfigurationObject="5538bbe6-ce6d-4864-b5dd-3679e639a6cc">
+  <name>РезервированиеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ФункциональнаяОпцияРезервированиеЗапасов</location>
+</mdclass:FunctionalOption>

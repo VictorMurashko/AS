@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="48082d7f-6a28-462c-b5b9-822e304b67dd" extendedConfigurationObject="dea73eaa-86a8-4740-9cfb-e48bf65f95ec">
+  <producedTypes>
+    <selectionType typeId="c2605894-366a-4e72-ae8c-15c0df8bdbb7" valueTypeId="69e71e30-ee9e-43fa-a309-4f26f6a2558f"/>
+    <listType typeId="aa9fe776-1d97-4c76-a759-399f2c40f9b1" valueTypeId="95cd5aab-e9c7-438a-9ecf-da17ca4aaaa9"/>
+    <managerType typeId="7f6a96c0-72c5-4b70-a42d-057183e2fdaf" valueTypeId="295dcbe9-b95c-436e-a207-1f7cddfc6803"/>
+    <recordSetType typeId="80319b4f-784d-4ecf-bd8d-c84f9ad4f937" valueTypeId="e3d594fe-8c0a-43aa-9fbf-eb2a6df2857b"/>
+    <recordKeyType typeId="8c1b345a-c043-4197-80c7-cc0183776364" valueTypeId="5b0fd8b2-4a19-497c-887a-a2769db8333a"/>
+    <recordType typeId="588bd5d5-dc20-42d1-8706-f284b267483c" valueTypeId="269abcb9-cc7e-4bcf-96bc-acf37100860f"/>
+    <recordManagerType typeId="fbf48444-5a77-4928-ac3b-20eed0d25837" valueTypeId="9dc0d49b-72d1-4311-92da-15d0fdf679c3"/>
+  </producedTypes>
+  <name>ФактОплатыЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <resources uuid="96d90295-b335-4327-a6a0-8f88a67fd536" extendedConfigurationObject="1b4372fa-c3fb-41d5-a62e-35088094147b">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="afbe0df7-08bf-4680-a1f1-f10789a1fffc" extendedConfigurationObject="d8f9c5c8-01e4-41ff-8dae-ca3fd15b5eb3">
+    <name>СуммаАванса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="0bc96cb3-1160-4b29-95ab-3b6df4d64fac" extendedConfigurationObject="39edf61c-0023-4e33-84df-b298ac4f5054">
+    <name>СуммаОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="b1fe0811-3586-4a71-bae0-78307618c36e" extendedConfigurationObject="0e4c0979-83a2-4057-96a5-ca759e8c09fa">
+    <name>СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

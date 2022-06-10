@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2168269-1668-481a-b1f7-b975314903c0">
+  <producedTypes>
+    <selectionType typeId="65766b68-ce89-4e34-a95f-c83266597b4f" valueTypeId="cb61a006-1ed2-4420-adf6-05d0b12ef52b"/>
+    <listType typeId="2add9d71-e0c7-430f-b541-06c479096431" valueTypeId="6753951c-cfa3-414e-932f-489a0d34f306"/>
+    <managerType typeId="547df870-179c-45de-89fe-ce62056c9f47" valueTypeId="36c03f42-c755-4d2d-b8e4-dd9445bc1efe"/>
+    <recordSetType typeId="41d4af91-6d66-4cc7-94b9-f3423c787e4e" valueTypeId="a413a5b4-0227-4860-9cb0-682621e5d02f"/>
+    <recordKeyType typeId="019828f5-64ff-49f0-b9f8-d19b04c525f5" valueTypeId="6b76122e-7cae-4a82-b2d7-2ac28aa036f9"/>
+    <recordType typeId="d8ddaf59-3215-4f8e-95d4-e8f34b539458" valueTypeId="3601306d-8884-467e-ac44-c55b7d354cc8"/>
+    <recordManagerType typeId="8d39f8f2-75a0-4094-a5ea-9fe584eb9364" valueTypeId="4521a870-a948-4a75-abbe-6f635e0443a2"/>
+  </producedTypes>
+  <name>саУНФ_НастройкаДляТелеграмма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка для телеграмма</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2ea32992-fb91-4373-b80d-8e78e7067343">
+    <name>ChatID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chat ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="832cefe7-63b5-4fb7-a535-c0a41dd950f2">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="a33751e2-7806-4fd6-b05e-d754e679dcf6">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="427352c4-6528-4995-907a-ef4de362395d">
+    <name>ИмяТелеграмм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя телеграмм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

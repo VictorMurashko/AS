@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40c6f344-7bff-4559-8554-95fe3e513454">
+  <producedTypes>
+    <refType typeId="70f5ad5f-37a4-4d57-9e74-9cc48cc2a939" valueTypeId="01cc95e6-bb8e-4048-b199-03fa786a19bc"/>
+    <listType typeId="de209ec5-63ac-4584-8ba1-06d758b7df68" valueTypeId="14db62c5-9409-4795-ba4d-b3503999a959"/>
+    <managerType typeId="e5def1c6-2e97-4b37-8761-5582a7b8fc9e" valueTypeId="24d13556-afe4-405a-90dd-d6f88b207385"/>
+  </producedTypes>
+  <name>СостояниеСборки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние сборки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="757e7d8f-974c-43f6-8aed-9d46f7a0da6f">
+    <name>НеСобран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не собран</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1f5c9cf-cde4-47b1-ab2c-54b3cb0853e5">
+    <name>Собран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собран</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73d0e030-2903-49d9-bf3b-5756fb0f6efe">
+    <name>Собирается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирается</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

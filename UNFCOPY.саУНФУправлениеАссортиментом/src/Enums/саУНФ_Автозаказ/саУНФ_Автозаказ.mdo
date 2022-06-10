@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="063330c9-2a86-4fda-880b-4a8292fcc38c">
+  <producedTypes>
+    <refType typeId="a9c114de-1f8b-42c1-91b9-1d6d280217ab" valueTypeId="98d92496-0c2f-4544-95d4-edb58b08ce0a"/>
+    <listType typeId="43378e33-dd35-456d-8fac-16f4a7b801f0" valueTypeId="b2e5259b-a12b-4bc6-ab4a-83c914be8f75"/>
+    <managerType typeId="4ba5d670-2ae1-4b4c-9c14-07c7369e6bf6" valueTypeId="83911671-34e9-4405-8f89-1aa8c8048920"/>
+  </producedTypes>
+  <name>саУНФ_Автозаказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Са УНФ автозаказ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2cab3094-f8f0-43be-927a-29ac13bf399e">
+    <name>ЗаказРТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ РТТ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

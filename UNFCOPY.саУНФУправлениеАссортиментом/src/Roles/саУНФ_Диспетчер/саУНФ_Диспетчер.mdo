@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c339be31-54a7-45dd-b097-920c439e559c">
+  <name>саУНФ_Диспетчер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчер ОМА</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="241e295a-78ab-4451-8da8-7e8fada7fbf5" extendedConfigurationObject="91050f3b-9d20-42a0-b82f-1fd16b364e26" thisNode="c453c10a-b19a-45ad-8f91-ed2134413fa6">
+  <producedTypes>
+    <objectType typeId="3088f160-0fd6-43a2-9583-d80c7b200286" valueTypeId="524781af-73e6-4470-a1f0-8cd39d542aa6"/>
+    <refType typeId="7d2b36ac-33d0-4bc9-9616-216b15ebbc08" valueTypeId="1a10b293-b36a-4172-b906-cc7ad54507d3"/>
+    <selectionType typeId="2e5f8e0f-26d0-4b70-b7d5-aadd12915e20" valueTypeId="cf303911-a4d3-457a-a20a-672b28090e18"/>
+    <listType typeId="aac92d46-2df4-444d-a7fa-f6066f6a84b8" valueTypeId="6d933752-8985-49ff-906c-dd8c8c823c5c"/>
+    <managerType typeId="65bfd7b6-15a2-4009-9c96-9df7c04c3622" valueTypeId="529ed23b-cfb2-41c1-952b-06108b4d0fd3"/>
+  </producedTypes>
+  <name>ОбменУправлениеНебольшойФирмойСайт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ExchangePlanExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:ExchangePlan>

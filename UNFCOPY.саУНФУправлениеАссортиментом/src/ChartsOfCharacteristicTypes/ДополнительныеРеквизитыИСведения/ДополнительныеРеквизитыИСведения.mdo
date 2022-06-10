@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="807b1a59-eb95-4d97-b804-dec824a5d1ad" extendedConfigurationObject="1055d15b-8cb5-4ff0-a526-7fd20a08a96c">
+  <producedTypes>
+    <objectType typeId="4c45632f-ca3e-451c-8a8c-e4df577e51dc" valueTypeId="13dce5a4-d8ae-4498-ab99-b0509bd13aec"/>
+    <refType typeId="ee09cc85-c228-44ae-a8cc-4a632025aa69" valueTypeId="d93385e1-07d6-4ec6-9ee5-8280042f10e0"/>
+    <selectionType typeId="3852b1b7-0ae4-4ff0-82d7-ecbdb6eda97c" valueTypeId="ac9a1b21-4424-4342-9445-195efece5750"/>
+    <listType typeId="0b163d86-bf7b-461e-8536-f5fee076715d" valueTypeId="64d135a6-5554-44ce-afe9-be23feec97c3"/>
+    <managerType typeId="3047ffe1-822c-4d76-8e6b-13e2bfcabd15" valueTypeId="f6a02782-bbb7-4688-8453-ed357cc92bcd"/>
+    <containerType typeId="64e8eec3-d30c-4611-b21a-fbbfd6080028" valueTypeId="855ed6cb-bdc7-409c-8911-412c70b6146f"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+  <attributes uuid="484579f6-d915-4227-b1d4-67de0af74bab" extendedConfigurationObject="8adebe50-a946-40c2-9258-b17efe787e0e">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

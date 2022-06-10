@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff9ba02c-82db-43ae-927e-a9267937073a">
+  <name>саУНФ_Регистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.саУНФ_Заказано</content>
+  <content>AccumulationRegister.Запасы</content>
+  <content>InformationRegister.саУНФ_ИнформацияПоНедостачам</content>
+  <content>InformationRegister.саУНФ_НормыАссортимента</content>
+  <content>InformationRegister.caУНФ_ФилиалыДляАвтозаказа</content>
+  <content>InformationRegister.ГрафикиРаботыМагазиновИФилиалов</content>
+  <content>InformationRegister.саУНФ_НеДопоставкаСнабжения</content>
+  <content>InformationRegister.caУНФ_ТочкиДляАвтозаказа</content>
+  <content>InformationRegister.саУНФ_ОтправкаЗаказаПоставщику</content>
+  <content>InformationRegister.саУНФ_НастройкаАвтозаказа</content>
+  <parentSubsystem>Subsystem.саУНФ_Автозаказ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebad0ba2-8d89-42e6-895d-290e7d7ea08d">
+  <producedTypes>
+    <objectType typeId="67c5a527-6ae9-468b-b50e-fd25ab4bd9f6" valueTypeId="f3e8da5c-54ac-49de-8e3e-000107cf4e0f"/>
+    <managerType typeId="6e3a232d-c96b-42c5-892c-a5e97c6cb64f" valueTypeId="c55a0e05-9790-4e81-aabb-b97f215157cb"/>
+  </producedTypes>
+  <name>ИсправлениеНомеровДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исправление номеров документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИсправлениеНомеровДокументов.Form.Форма</defaultForm>
+  <forms uuid="ccb0e601-156e-48b5-9c91-9845524d49c1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

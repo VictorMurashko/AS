@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="044bf6ad-be05-4f21-a50c-6f2584408423" thisNode="c9d4c8c9-907f-469c-8349-bdbd2461633e">
+  <producedTypes>
+    <objectType typeId="cc4cb242-40e6-4292-96dd-bf1dd36b8ec1" valueTypeId="c3875948-8013-40f8-8104-ac5d28dedfbf"/>
+    <refType typeId="954a28f7-b839-4f8e-aab8-2876d825d142" valueTypeId="7293e8aa-ab9d-4a20-9a64-f935536aa866"/>
+    <selectionType typeId="4364694a-1bc1-493d-812f-d546b37f161c" valueTypeId="d8cc5250-e096-4823-9f90-dc2a957f8f4b"/>
+    <listType typeId="d255865a-6279-42d6-9f6e-94fb78f8a3ee" valueTypeId="04d546ab-1cee-4d01-b50d-117361003974"/>
+    <managerType typeId="98341e3a-6bf2-48c0-8922-c4aad84fbbcc" valueTypeId="6a5fde4c-7e1a-4e6e-8332-767650dead08"/>
+  </producedTypes>
+  <name>ОбменСтатусамиОМА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен статусами ОМА</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСтатусамиОМА.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменСтатусамиОМА.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Узел обмена статусами с ОМА</value>
+  </objectPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.ЗаказПокупателя</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменСтатусамиОМА.Form.ФормаУзла</defaultObjectForm>
+  <forms uuid="38998116-1b6e-4429-ab65-66b585042e7a">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bda0173e-0d52-4eb6-bc18-bc40c22a4068">
+    <name>ФормаИнформацияОЗарегистрированныхИзменениях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма информация о зарегистрированных изменениях</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3d4a24eb-94d2-4cc2-9f92-36926153087f">
+    <name>ПоказатьЗарегистрированныеИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать зарегистрированные изменения</value>
+    </synonym>
+    <group>CommandGroup.СинхронизацияДанных</group>
+    <commandParameterType>
+      <types>ExchangePlanRef.ОбменСтатусамиОМА</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ShowData</picture>
+    </picture>
+  </commands>
+</mdclass:ExchangePlan>

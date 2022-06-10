@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b55d017e-9ced-4d5e-b548-8df81f54518e" extendedConfigurationObject="a05d109e-247d-4d3e-8f1c-0ef4d84f7da9">
+  <producedTypes>
+    <objectType typeId="684b0fc4-5479-4121-a7e1-3951c3e525d3" valueTypeId="eb346f59-8d9e-47bd-a52e-6d81c4729b5c"/>
+    <refType typeId="dfe27a66-ba43-411d-a477-c89b26f52b9b" valueTypeId="917bb692-8178-4833-9e25-0dcdff8bc803"/>
+    <selectionType typeId="1aedc636-5162-4295-b0b5-36902679ce14" valueTypeId="521fd5b9-c5ca-45d5-9326-9760c7c3e44b"/>
+    <listType typeId="78d1ff32-afd8-406b-b345-3e4aaf4c2984" valueTypeId="8c6f285d-c22b-4f28-835b-f0dc73bd8a88"/>
+    <managerType typeId="eae355ac-251a-4d6e-8a4e-d5f80a9f46ce" valueTypeId="6cd5e07e-925a-430d-bdee-4a90208dba1d"/>
+  </producedTypes>
+  <name>ПриемИПередачаВРемонт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

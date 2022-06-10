@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b3f46ab2-5034-4e37-8a80-c2018c2b741c" extendedConfigurationObject="6a9a9474-586c-4ca7-844f-2c1df0e7fbe2">
+  <producedTypes>
+    <refType typeId="7a77373a-18e5-49f2-977a-9297f3e67de1" valueTypeId="85432fb5-29c1-4a29-aab8-e4c35bb1be2b"/>
+    <listType typeId="f887df5d-0653-410f-8ee5-ab63a1e5dbf5" valueTypeId="1c4c411b-be82-4670-a94d-ddd04abdd879"/>
+    <managerType typeId="42c01210-c846-49ff-b0a9-805a402413ce" valueTypeId="8542d12d-d505-4645-95de-ce583d0d0484"/>
+  </producedTypes>
+  <name>СтатусыКассовойСмены</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

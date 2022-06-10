@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="466fd800-3e0b-4f34-bec3-e5fd7892f063" extendedConfigurationObject="b1a290e4-5e2e-4670-a522-24e6c468b280">
+  <producedTypes>
+    <selectionType typeId="4f4946cf-40bb-4e7d-aac2-4b8af5dd905e" valueTypeId="768a7a1d-3731-4cb8-9db8-6ce33f4a5268"/>
+    <listType typeId="209254d0-d9f9-486a-830e-01bb6f261683" valueTypeId="d615e8c6-5473-48c7-bd3b-d73d94a609b8"/>
+    <managerType typeId="0525142a-9aee-4c6f-a61f-b2b95a14ab39" valueTypeId="2e13f9d6-ef86-4763-a4d2-74155e01d934"/>
+    <recordSetType typeId="1a0680d5-a11a-4b26-b543-e07cd45c4b3a" valueTypeId="54ea388e-eb5d-428b-9fd1-9469f8f770dd"/>
+    <recordKeyType typeId="959df41d-faf8-44cd-a31e-32bbac830b84" valueTypeId="7705fb45-5ae7-4f69-a538-c1c8cd795271"/>
+    <recordType typeId="8d0c3365-1293-42ab-82b2-f84ab26ca5a8" valueTypeId="9ce73d21-0ab6-40e5-b1f7-8bc9c378740f"/>
+    <recordManagerType typeId="cd6ccf38-e247-4d9c-ab11-7cb13f486093" valueTypeId="1f9090ac-1140-4852-bea5-1127588cfbc8"/>
+  </producedTypes>
+  <name>ТекущиеКадровыеДанныеСотрудников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="d90a1dcc-efc9-4cd1-be12-665e3789e979" extendedConfigurationObject="2224d800-4fce-4584-b716-43408b8a1949">
+    <name>СтруктурнаяЕдиница</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктурныеЕдиницы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="61183d23-dbe6-425d-b742-2c49f403e808" extendedConfigurationObject="b86333a4-b8c7-4f49-82bc-618e59d80370">
+    <name>Сотрудник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Сотрудники</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

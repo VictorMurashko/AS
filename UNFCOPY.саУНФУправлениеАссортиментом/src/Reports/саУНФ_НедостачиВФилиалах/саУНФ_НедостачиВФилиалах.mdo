@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a983870e-cb80-4f39-b150-f86c8f834202">
+  <producedTypes>
+    <objectType typeId="ca674693-a723-4a9b-9b19-e1c2222423e8" valueTypeId="cd142c14-f7a8-46c0-a072-28d52ad0d157"/>
+    <managerType typeId="677a120a-501e-46a9-85cb-cc831b129481" valueTypeId="7363f5f4-74a2-43e8-8dfe-1b7a2e7cabbc"/>
+  </producedTypes>
+  <name>саУНФ_НедостачиВФилиалах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Недостачи в филиалах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.саУНФ_НедостачиВФилиалах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6a10ced0-af67-4567-a125-f9bb6f3755a1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

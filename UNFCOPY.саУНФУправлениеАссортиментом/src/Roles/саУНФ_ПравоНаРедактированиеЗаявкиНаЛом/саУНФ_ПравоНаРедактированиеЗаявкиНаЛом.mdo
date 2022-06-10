@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d7ac874-29ef-491e-8c28-9579f45b8e76" extendedConfigurationObject="eeb86a95-c21d-420b-a79d-9abd15217d63">
+  <name>саУНФ_ПравоНаРедактированиеЗаявкиНаЛом</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:RoleExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <rights>Extended</rights>
+  </extension>
+</mdclass:Role>

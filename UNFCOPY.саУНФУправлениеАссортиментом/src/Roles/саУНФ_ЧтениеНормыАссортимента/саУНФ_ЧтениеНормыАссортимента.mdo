@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78e61746-4f62-499c-aece-a142187b6791">
+  <name>саУНФ_ЧтениеНормыАссортимента</name>
+  <synonym>
+    <key>ru</key>
+    <value>(са) Чтение нормы ассортимента</value>
+  </synonym>
+</mdclass:Role>

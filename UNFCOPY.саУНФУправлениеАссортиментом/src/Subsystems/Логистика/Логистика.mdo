@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ca50163-77c1-44a1-b22d-400a756ebc51">
+  <name>Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.SendMessage</picture>
+  </picture>
+  <content>Catalog.ЗоныТарифыДоставки</content>
+  <content>Catalog.ТранспортныеСредства</content>
+  <content>InformationRegister.саУНФ_НастройкаЛогистики</content>
+  <content>CommonForm.ЖурналЛогистики</content>
+  <content>CommonCommand.саУНФ_ЖурналЛогистики</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Document.ПАК_МаршрутныйЛист</content>
+  <content>Enum.ТипыОперацийМаршрута</content>
+  <content>Enum.СостояниеМаршрута</content>
+  <content>Document.ЗаявкаНаЛом</content>
+  <content>Enum.СостояниеСборки</content>
+  <content>CommonForm.ЖурналСклада</content>
+  <content>CommonCommand.саУНФ_ЖурналСклада</content>
+  <content>DataProcessor.ПечатьЛистаЗагрузки</content>
+  <content>CommonCommand.саУНФ_ЖурналКС</content>
+  <content>InformationRegister.саУНФ_ДополнительнаяКонтактнаяИнформация</content>
+  <content>Enum.ТипыЗаявкиНаЛом</content>
+</mdclass:Subsystem>

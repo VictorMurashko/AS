@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a566f665-19c0-4d28-aae4-31f8f13d809d">
+  <producedTypes>
+    <objectType typeId="0516521d-a7f6-4924-88f7-b2d88396e42b" valueTypeId="d5f3e7f7-358f-4fe3-b815-8e1d1806783c"/>
+    <managerType typeId="fe3fde72-a96f-492e-aa87-b6dcad37c0b1" valueTypeId="6c387c95-6817-43e8-8553-7bb1e8c2af54"/>
+  </producedTypes>
+  <name>саУНФ_ОтчетОстаткиЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не закрытые заказы РТТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.саУНФ_ОтчетОстаткиЗаказов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f69f181f-f5ea-4250-849e-2a61b8c2161f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

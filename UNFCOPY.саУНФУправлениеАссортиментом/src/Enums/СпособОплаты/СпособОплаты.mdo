@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f62d88c-1d80-43b3-b7b8-0fd5cfddee40">
+  <producedTypes>
+    <refType typeId="36be8e34-bb84-44fd-97c3-10b06ef9f600" valueTypeId="5372ffd3-0ab9-4324-9fb1-f79b7a71b609"/>
+    <listType typeId="4f05e71c-3bcb-4cc4-afae-7f4812a5c7ab" valueTypeId="0a21f478-7049-46e2-93f3-cc2fdc409f3b"/>
+    <managerType typeId="d8e1c759-7f9c-48b4-8798-309a5e393b7c" valueTypeId="ce81f926-4645-440b-8134-bfd50666ef29"/>
+  </producedTypes>
+  <name>СпособОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ оплаты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2b34114f-5e07-424e-b843-64b6a422b2e8">
+    <name>Card</name>
+    <synonym>
+      <key>ru</key>
+      <value>Card</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f274855f-f889-4975-9121-38f9896f3d7e">
+    <name>ERIP</name>
+    <synonym>
+      <key>ru</key>
+      <value>ERIP</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

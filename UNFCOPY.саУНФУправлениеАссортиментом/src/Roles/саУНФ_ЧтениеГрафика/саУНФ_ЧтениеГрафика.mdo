@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f30f96a1-50c4-4f1a-babb-95f5e7d4e68b">
+  <name>саУНФ_ЧтениеГрафика</name>
+  <synonym>
+    <key>ru</key>
+    <value>(са)Чтение графика</value>
+  </synonym>
+</mdclass:Role>

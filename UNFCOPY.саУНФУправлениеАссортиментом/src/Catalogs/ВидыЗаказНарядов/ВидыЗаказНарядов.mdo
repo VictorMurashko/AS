@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2cc2b9e6-8212-47d2-9bf9-8cfecb8e9c8b" extendedConfigurationObject="d975f3fa-271a-400a-8fdb-073198c34c5b">
+  <producedTypes>
+    <objectType typeId="b2f2f477-991d-4494-b3fc-a5bc16611a0f" valueTypeId="68853638-6bb8-43e8-8d54-781841853a42"/>
+    <refType typeId="e77e0fe7-c784-4785-bfd9-8c7b66b94b03" valueTypeId="44cd2bc5-a95f-46ff-9828-4e328e3bc003"/>
+    <selectionType typeId="ea8d37a5-0238-407b-a71b-c96490b07f1a" valueTypeId="cc82357b-24d8-4ca2-acd8-53df35fc3b43"/>
+    <listType typeId="fd6553d6-e78c-47ff-a131-c226b1382aef" valueTypeId="07f9cc80-bd9b-450e-b9ef-fbc9fce62a42"/>
+    <managerType typeId="b283c254-860d-4ce4-bb2f-1ed748b6ec3a" valueTypeId="2275e9a7-3de2-4ca1-a50a-f237e07e8075"/>
+  </producedTypes>
+  <name>ВидыЗаказНарядов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

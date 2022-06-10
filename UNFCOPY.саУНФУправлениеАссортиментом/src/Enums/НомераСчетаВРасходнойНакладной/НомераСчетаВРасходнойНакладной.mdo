@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c85ede51-616b-4a71-8682-741b1bc2a94c" extendedConfigurationObject="86475c61-f7ca-4dfc-aa6e-496319492853">
+  <producedTypes>
+    <refType typeId="2a9720fa-c186-4ef3-9d91-43fa42a3b663" valueTypeId="12293dfb-c10b-4736-b596-e2100e02bb6b"/>
+    <listType typeId="d0cdf3d9-c9c5-4e93-a8a7-a152ae67ce55" valueTypeId="f23496d0-ea1b-47fc-8754-764bdbae5c91"/>
+    <managerType typeId="49122aa4-ae70-42f3-8098-def1b203df4a" valueTypeId="28bce9ea-42ae-4dc1-b9d7-0bc5737709fb"/>
+  </producedTypes>
+  <name>НомераСчетаВРасходнойНакладной</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

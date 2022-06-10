@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="48d23ea5-e3b3-49bf-937b-c3eb6c92b0cd" extendedConfigurationObject="13f6f75e-ef1a-4499-be4d-09d78e2d76df">
+  <producedTypes>
+    <refType typeId="cc6145e0-f7e0-42bc-9de6-85621dd0e69a" valueTypeId="c943fe4e-6325-4102-823c-c732055d4263"/>
+    <listType typeId="3c3af1a0-1663-46d9-9546-4c1a4f73edc3" valueTypeId="7ea14103-571c-4497-a773-c77c2011aa5c"/>
+    <managerType typeId="110f18eb-8dae-41cb-8551-7145557bf8eb" valueTypeId="6e71ec8e-1b20-449c-8033-c2a0da6f864e"/>
+  </producedTypes>
+  <name>МетодОценкиЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="5249282d-2d38-4c05-a9bc-dc24d65afa8c" extendedConfigurationObject="59ecd25f-5dc9-4b3c-bbfb-1ebf1d6811ff">
+    <name>ПоСредней</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

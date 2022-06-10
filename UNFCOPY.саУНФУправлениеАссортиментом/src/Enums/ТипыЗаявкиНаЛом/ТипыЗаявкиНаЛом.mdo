@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4437b007-0421-40a4-8b03-499d2e733691">
+  <producedTypes>
+    <refType typeId="c46a55f2-0397-4b63-a6f4-846d9bb2a919" valueTypeId="eab42019-aa5b-427c-a270-721944135964"/>
+    <listType typeId="b93eeada-ce47-4af6-aedf-d621c11f6af2" valueTypeId="1617b436-4e42-473f-81a0-3bc70fc177d5"/>
+    <managerType typeId="a598215e-503e-4bcd-af40-6509642379d1" valueTypeId="6fa1aabf-d0f7-42d0-be41-4a2570adab77"/>
+  </producedTypes>
+  <name>ТипыЗаявкиНаЛом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы заявки на лом</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="805719cb-8408-47ce-b906-2546b75fb8ab">
+    <name>Лом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывоз лома</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01011833-e1ea-42fa-961e-f5c712bd0a00">
+    <name>Литий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Li-ion</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b34d2bb2-d9f3-4c41-a3ee-2c8a719214d9">
+    <name>ОМА</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОМА</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

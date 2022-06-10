@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe807f9-f821-420b-a2f3-651c6557e9bb">
+  <name>саУНФ_ИзменениеГрафика</name>
+  <synonym>
+    <key>ru</key>
+    <value>(са)Изменение графика</value>
+  </synonym>
+</mdclass:Role>

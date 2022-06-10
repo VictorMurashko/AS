@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bf1031b-a71e-4430-8b64-0fb5f8cae47e">
+  <producedTypes>
+    <objectType typeId="3ded0480-89e8-48c2-ac7c-fc570e2494e7" valueTypeId="730ec4ff-268f-4621-b89f-30763676cb12"/>
+    <managerType typeId="ee0d47a0-8ec6-4b94-8ae4-b96357ab0c44" valueTypeId="5723ae7b-d130-424a-a99a-a467aa1a771c"/>
+  </producedTypes>
+  <name>саУНФ_СписокРолейПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список ролей пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.саУНФ_СписокРолейПользователя.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="c6c05349-d57c-4886-8804-1aa50d3f934b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65f31949-1e56-4ae3-9404-3038fcddb4a8">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3b1314e5-8007-47dc-a426-b03b4187cb34">
+    <name>НужныйСправочник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6016f184-2a4d-4e60-af0f-fea0f3240f77">
+    <name>НужныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нужный документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5fbd0e2e-d875-4b34-b66d-1b3094c29f7e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="90730499-0c5b-4e19-a0c3-e10f8c2a5eeb">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <commands uuid="53bf1d63-32c6-4b04-b200-8c2037fd8a59">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

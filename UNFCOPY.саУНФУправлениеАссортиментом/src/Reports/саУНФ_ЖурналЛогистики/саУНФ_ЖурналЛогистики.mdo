@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de3ba9a1-fea7-47ad-a281-e01b6a6e0887">
+  <producedTypes>
+    <objectType typeId="9ae4b9f8-0610-4264-be02-de5334b4b628" valueTypeId="ecfa7aca-11ee-440e-a4b7-c8b06184aa3c"/>
+    <managerType typeId="5e42ff79-ec85-4384-b394-351b1045a8a6" valueTypeId="ee46dba8-881b-421a-8836-171c7c4782b1"/>
+  </producedTypes>
+  <name>саУНФ_ЖурналЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал логистики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.саУНФ_ЖурналЛогистики.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="098b47d9-6f99-4108-9890-b657e0edc030">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

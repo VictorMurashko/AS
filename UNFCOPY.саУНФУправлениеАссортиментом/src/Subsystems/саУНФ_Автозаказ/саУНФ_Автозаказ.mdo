@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0e0574a-7062-487c-909e-fbe47cd3bab3">
+  <name>саУНФ_Автозаказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автозаказ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПеренаправитьЭлектронныйДокумент</picture>
+  </picture>
+  <content>DataProcessor.саУНФ_Автозаказ</content>
+  <content>DataProcessor.саУНФ_АвтозаказОсновнойСклад</content>
+  <content>Report.саУНФ_НедостачиВФилиалах</content>
+  <content>Report.саУНФ_НеДопоставкаСнабжения</content>
+  <content>Report.саУНФ_РезервыСЗаказомСнабжения</content>
+  <content>DataProcessor.саУНФ_РучнойЗаказ</content>
+  <content>CommonCommand.саУНФ_ОтправитьТоварВМинск</content>
+  <subsystems>саУНФ_Документы</subsystems>
+  <subsystems>саУНФ_Справочники</subsystems>
+  <subsystems>саУНФ_Настройка</subsystems>
+  <subsystems>саУНФ_Регистры</subsystems>
+</mdclass:Subsystem>

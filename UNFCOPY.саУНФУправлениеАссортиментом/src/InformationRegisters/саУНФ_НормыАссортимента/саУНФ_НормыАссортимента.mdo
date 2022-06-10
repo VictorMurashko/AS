@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="136fef4d-5019-4c63-9cf4-d26692d72c53">
+  <producedTypes>
+    <selectionType typeId="f55192cf-0cf4-4ece-8451-eb4780526abe" valueTypeId="533d8b50-bdb9-433e-ae2c-064d79cc95bf"/>
+    <listType typeId="4e12a07d-4470-47a1-be78-d4bc60e62dcb" valueTypeId="c1c4df9e-9687-4ca0-ae01-870ecffb4c29"/>
+    <managerType typeId="84dce2a8-c189-4a4e-a4a9-4b9b2cc00b61" valueTypeId="4529a5c9-7cd6-47d5-810f-0e53d4b2a3b0"/>
+    <recordSetType typeId="f7338601-49a6-4735-9ac5-e8eebc303120" valueTypeId="0c0735ac-4072-418b-a026-74731cb10a48"/>
+    <recordKeyType typeId="a0e2d0ef-65e9-4ce3-9abf-3e3fa37a2009" valueTypeId="f0ed6759-ea36-42b0-96ab-1fa4ccfe82c7"/>
+    <recordType typeId="fb2609df-943a-4add-bbbb-4b173a88a476" valueTypeId="2ad841c7-ea83-493c-b16a-d299e9c8a980"/>
+    <recordManagerType typeId="8e4b3c52-571a-4ea4-92d1-97f7b09a71e0" valueTypeId="b646411a-b887-405a-8065-091b39312a24"/>
+  </producedTypes>
+  <name>саУНФ_НормыАссортимента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы ассортимента (са)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f3be9aef-0dd7-454e-9b1d-68287ac9f147">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="02a80648-82e8-4a13-8159-ba1cdc24d917">
+    <name>КоличествоНаПаллете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество на паллете</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7c4391e4-9ba9-4b3e-8b8b-2406c82e0e5e">
+    <name>МинимальныйЗапас</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный запас</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="31dfb4f3-7ba4-405e-8d97-c0599fa907bd">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aff89122-d860-46cb-b011-f12366117e91">
+    <name>ФорматМагазина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат магазина</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.саУНФ_ФорматыМагазинов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bc3afc8a-3059-4d5a-8c7c-b283189fb38f">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

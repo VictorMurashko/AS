@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="368d9da0-34f2-4ced-a7f9-368fd358976e" extendedConfigurationObject="afe79ef0-7830-43ce-85f3-c4c97831aa67">
+  <producedTypes>
+    <selectionType typeId="ea708704-472b-4665-a107-0b2b6927bc2f" valueTypeId="1b6bf210-aa43-45fc-99a7-84e492ee2c02"/>
+    <listType typeId="acde9d98-1da9-42e5-be2c-5041856cdb09" valueTypeId="a04edfcc-2444-44a4-bdcb-b5c7af70ed9d"/>
+    <managerType typeId="bcb3d667-0c9f-4ab9-a482-88edd1dff0b3" valueTypeId="c5bdc4ac-d223-4a84-b547-7a4ddc95e9c4"/>
+    <recordSetType typeId="4ac34553-7fe4-4737-9247-8afb88e6ce1e" valueTypeId="16766066-af8c-44a1-9623-5c724d1d1545"/>
+    <recordKeyType typeId="4f8b55f3-cf34-4e3b-b8f4-38abb845a26e" valueTypeId="3291b040-bb8e-44b1-b804-49f6f28eb723"/>
+    <recordType typeId="34f942e2-12c8-4511-a9e6-d451f7a7edcd" valueTypeId="a0fd9c53-f0d9-4d57-9259-ac19be89fc43"/>
+    <recordManagerType typeId="9cf28f44-1519-4676-a7ee-4df5ceea1c94" valueTypeId="074f525f-8685-41c8-aa65-034c8ff50d09"/>
+  </producedTypes>
+  <name>АдресныеОбъекты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <templates uuid="99adcfda-d6c8-44d7-97fa-a8675bf7cf12" extendedConfigurationObject="a671cb1e-b27a-44bb-a8ca-1388f099de2e">
+    <name>КлассификаторСубъектовРФ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e8a03e75-9f06-4d8e-ab53-9e8ddbf25d7f">
+    <name>КлассификаторСубъектовРФРБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор субъектов РФРБ</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

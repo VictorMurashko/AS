@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d101050b-7d10-4cc2-bbf1-e11c022888e6">
+  <name>саУНФ_Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.саУНФ_ЗаказСнабжения</content>
+  <content>Document.саУНФ_УстановкаАссортимента</content>
+  <content>Document.ПеремещениеЗапасов</content>
+  <parentSubsystem>Subsystem.саУНФ_Автозаказ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29d27ca9-e917-4c00-8312-f3e6374bbd8c">
+  <producedTypes>
+    <selectionType typeId="96532c43-1c31-4917-b954-a6dc7d155c5f" valueTypeId="61bc3d52-512e-4c9c-9fd4-ac59f07145d3"/>
+    <listType typeId="2a2c9de2-0b4e-48aa-b758-438c882f3461" valueTypeId="50db2a66-2a02-4e25-84b4-bfe1ec3fda48"/>
+    <managerType typeId="aa3fc22e-6746-4475-8d11-8b14530a9066" valueTypeId="351a2a60-0bba-4875-8cdd-4547d600c617"/>
+    <recordSetType typeId="b684c5c9-c4b6-4c97-8ab3-b58c67afb446" valueTypeId="03fa03f7-6612-4972-9204-4a8878da8d83"/>
+    <recordKeyType typeId="ccc99bf4-3515-4428-a9a7-199f4d5bf4c5" valueTypeId="89c67a29-c7b3-4498-a596-2e15ef4cba9b"/>
+    <recordType typeId="721d56cd-0b44-42bd-be79-5cd4d11a98c2" valueTypeId="3f9b83da-03a0-4d90-a3d1-f065d7250416"/>
+    <recordManagerType typeId="70443b49-3ba4-4430-ab54-b94c74e8fe1c" valueTypeId="af358c8e-a741-45ba-b211-680330b633d7"/>
+  </producedTypes>
+  <name>caУНФ_ТочкиДляАвтозаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точки для автозаказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.caУНФ_ТочкиДляАвтозаказа.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="410de723-577c-464e-8909-96f0db878289">
+    <name>Включить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="06cb8f6e-9b1b-45f7-8516-738f04231fb0">
+    <name>ЗапретПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет перемещения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="17a0b1f6-649c-48d3-8166-f2eb56d930d5">
+    <name>ОтгружатьДеньВДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружать день в день</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b15002e-f642-4be2-a47a-498d60521b46">
+    <name>Точка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипСтруктурнойЕдиницы</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Склад</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8966d854-9f9c-4d87-878c-8f12383addd8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5805f85-a352-4e13-983e-021c6b05cb8e">
+  <name>erip</name>
+  <synonym>
+    <key>ru</key>
+    <value>Erip</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

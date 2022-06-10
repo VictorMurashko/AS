@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3511ff71-366b-44a3-97b9-3bfa7149cb69">
+  <producedTypes>
+    <selectionType typeId="809ba35e-3cb7-4696-b0d7-88f9f00b56cb" valueTypeId="33165787-851b-4f4a-b139-401c17875d2a"/>
+    <listType typeId="762190da-d75e-45b1-8392-630ede417b63" valueTypeId="55572b0b-a527-4407-b953-b3545a5745ce"/>
+    <managerType typeId="efab46f1-79fa-45d8-a51c-5748a5d9894c" valueTypeId="969e1b66-3b44-4c3a-9a48-60f7fd053499"/>
+    <recordSetType typeId="6efccbc8-a056-42ef-aad8-f7868286e27c" valueTypeId="c474f1aa-4574-4854-ae22-6e1575e47bc7"/>
+    <recordKeyType typeId="efa7422c-87b4-4b86-b950-fa368598f040" valueTypeId="7a32559f-2dd8-4286-908c-eb07b64f2c3d"/>
+    <recordType typeId="b337e896-0067-4006-95e7-ecbf7ceef6b4" valueTypeId="ac4fee7b-7d66-476c-8630-a9d32ad4950c"/>
+    <recordManagerType typeId="95bc7e5b-2611-4440-a3da-4ec3ab4eaa3f" valueTypeId="094008d1-9aa4-4620-871b-9676ec2eb8b8"/>
+  </producedTypes>
+  <name>саУНФ_КонтрольРасписанияМагазинов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль расписания магазинов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0cfe53ea-464a-4342-bde2-c016836ee09f">
+    <name>Час</name>
+    <synonym>
+      <key>ru</key>
+      <value>Час</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5db6ffa3-8a05-427b-8523-c8e4bf709ea7">
+    <name>Минута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минута</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="96f322c4-bd32-4c57-aa38-93d5b107954d">
+    <name>Отклонение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="28440ea7-8b69-4b78-a251-193c3f3b01ad">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a5905017-a17a-4e2d-9866-8e465b284414">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипСтруктурнойЕдиницы</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Склад</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5f26fa73-6632-41e1-a1be-b4dea63f95f5">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.саУНФ_СостояниеМагазина</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

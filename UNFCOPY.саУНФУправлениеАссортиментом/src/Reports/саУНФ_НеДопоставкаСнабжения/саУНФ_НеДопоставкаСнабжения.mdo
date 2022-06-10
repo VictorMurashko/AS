@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24ed5476-f4c0-4acb-b64a-6cfd5997bdb8">
+  <producedTypes>
+    <objectType typeId="8a87d2f8-c2b3-4543-b28c-ce6e4b49c0dd" valueTypeId="7c0c99fc-2b09-4d91-963f-3f7f5deaba4d"/>
+    <managerType typeId="9bec0d27-12af-401e-93ab-75b3a3dbe0b8" valueTypeId="8422f17e-4752-46bb-964d-4e4ca12e564e"/>
+  </producedTypes>
+  <name>саУНФ_НеДопоставкаСнабжения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Недопоставка снабжения</value>
+  </synonym>
+  <comment>было в филиале, но не поставили</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.саУНФ_НеДопоставкаСнабжения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="34561b8b-89be-44b2-a4c7-2f5cb6d8248e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

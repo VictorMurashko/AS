@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3fb93b72-df96-432d-bf3c-45146fcc9e17" extendedConfigurationObject="5ead20ed-6c78-40fb-b885-3d4531b42d7d">
+  <producedTypes>
+    <containerType typeId="eb545135-a304-4c72-be2c-bccd01e3f1a1" valueTypeId="c22d890a-9895-47bb-979c-21a5c1284467"/>
+  </producedTypes>
+  <name>КассаБПО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

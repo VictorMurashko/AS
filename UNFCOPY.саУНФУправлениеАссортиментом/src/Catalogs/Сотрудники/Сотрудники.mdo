@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="df637995-9b12-42b9-9abd-3e9d05af99a2" extendedConfigurationObject="bf83958f-c4c6-490c-a464-cdc8a40f83f9">
+  <producedTypes>
+    <objectType typeId="eb061a34-a440-4710-97b6-348418963c78" valueTypeId="8baee20c-ef15-4bf9-91bb-ae7ba1fd91a1"/>
+    <refType typeId="7899d257-a31a-454f-82df-453bc0a6747e" valueTypeId="4dbf3a56-b1e2-49f1-8ae1-a70235a7491b"/>
+    <selectionType typeId="38a79b52-d447-4feb-94d0-77f6f5fe0cb7" valueTypeId="ceb55440-273d-4c12-8bc7-6b6d5007133a"/>
+    <listType typeId="96b4e06a-62d6-4d32-abe3-94d88a8ce1ae" valueTypeId="2a754590-f2f0-4743-a836-7ab4645fdd3b"/>
+    <managerType typeId="23e53aec-6bb9-4c84-bb32-b29c2b702dbd" valueTypeId="05200e8a-c3c9-4b14-8d83-309ad952730a"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="5bce3d0b-441f-45b9-9815-4062cba6b7a9" extendedConfigurationObject="41e55510-093e-4af0-b8d4-443d6e0d15ce">
+    <name>Физлицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c1be6908-e30d-4287-9552-7a03740a16f7" extendedConfigurationObject="324b8171-64cb-49cf-8dce-2ed9431f09af">
+    <name>ТипЗанятости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыЗанятости</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

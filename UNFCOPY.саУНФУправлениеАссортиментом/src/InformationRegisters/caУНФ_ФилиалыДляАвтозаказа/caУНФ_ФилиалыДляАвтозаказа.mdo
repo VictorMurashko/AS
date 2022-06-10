@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0eeee5ad-c133-41a4-b8f1-ccfe2f1a1c10">
+  <producedTypes>
+    <selectionType typeId="252cba3b-6ce0-46e1-9862-92ff43517d86" valueTypeId="4edba879-855a-4575-a65e-501c15651dea"/>
+    <listType typeId="175e0ff2-a74b-4bcb-a925-c6b0cc1908d4" valueTypeId="d0701ce4-53f7-47c5-80ee-a84b2d940e43"/>
+    <managerType typeId="f1bd288f-4982-4f2f-9e52-e1971aed873a" valueTypeId="16450abd-165a-4434-bfab-9a668bea403e"/>
+    <recordSetType typeId="21449c38-0be9-4726-a9e8-38545107ca8f" valueTypeId="d0315b67-cab2-42d5-90c9-c463c6fc0d22"/>
+    <recordKeyType typeId="ae680fa0-20ee-437f-b37d-3b85757efdd9" valueTypeId="77e6b5ba-07a7-4bcc-8b79-bbb518769cd9"/>
+    <recordType typeId="de2ff60c-4221-48df-ad89-0b0f89c89822" valueTypeId="01e0abfc-22e6-42c3-a136-669440867487"/>
+    <recordManagerType typeId="384954a8-b47c-4a98-8bfe-9774f578e6c8" valueTypeId="eea2dac7-1d76-4751-95ad-56fe0eb48df0"/>
+  </producedTypes>
+  <name>caУНФ_ФилиалыДляАвтозаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Филиалы для автозаказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dd05bcb2-8ce6-463d-8151-e5ae0852d3a0">
+    <name>Включить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5ff49dbb-1868-4790-a36e-774db40b393f">
+    <name>КонтрольВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7f83d101-0dd3-4b0a-b09c-35c3e71de44a">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>CommonCommand.саУНФ_ЖурналЛогистики</commands>
+      <commands>CommonCommand.саУНФ_ЖурналСклада</commands>
+      <commands>CommonCommand.саУНФ_ЖурналКС</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ФизическиеЛица.Command.Водители</commands>
+      <commands>Document.ЗаявкаНаЛом.StandardCommand.OpenList</commands>
+      <commands>Document.ПАК_МаршрутныйЛист.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.саУНФ_НастройкаЛогистики.StandardCommand.OpenList</commands>
+      <commands>Catalog.ЗоныТарифыДоставки.Command.ОткрытьЗоныДоставки</commands>
+      <commands>Catalog.ЗоныТарифыДоставки.StandardCommand.OpenList</commands>
+      <commands>Catalog.ТранспортныеСредства.StandardCommand.OpenList</commands>
+      <commands>Catalog.ФизическиеЛица.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

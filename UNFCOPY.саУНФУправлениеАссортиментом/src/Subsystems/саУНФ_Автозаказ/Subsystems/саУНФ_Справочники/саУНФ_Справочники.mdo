@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54b1f535-2cef-49b7-8497-2c40ce120264">
+  <name>саУНФ_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.саУНФ_ФорматыМагазинов</content>
+  <content>Catalog.СтруктурныеЕдиницы</content>
+  <parentSubsystem>Subsystem.саУНФ_Автозаказ</parentSubsystem>
+</mdclass:Subsystem>

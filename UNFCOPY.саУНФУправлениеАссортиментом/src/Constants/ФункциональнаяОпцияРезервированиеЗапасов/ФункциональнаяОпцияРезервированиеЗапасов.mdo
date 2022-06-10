@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="855c5587-60a5-4252-b9a8-2f6ece21ef5f" extendedConfigurationObject="511ff2b8-32b9-4d37-9338-bbad97a238a4">
+  <producedTypes>
+    <managerType typeId="f50fd28d-a326-4bd1-816e-ee6f5b17f126" valueTypeId="280d0c58-7709-480f-8501-0ca25ec8b4da"/>
+    <valueManagerType typeId="b24f76ed-82ea-4814-867b-76ba6c43d30a" valueTypeId="5f91d92f-ffc9-4062-bf8a-67924081762d"/>
+    <valueKeyType typeId="41d88987-5e42-4652-828a-ec62ce1f96ca" valueTypeId="9e10a8fa-998b-4ca8-9166-17f27daa17d6"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияРезервированиеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

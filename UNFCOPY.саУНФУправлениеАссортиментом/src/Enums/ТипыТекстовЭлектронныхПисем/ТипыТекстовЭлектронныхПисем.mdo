@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f72245c0-d094-4535-acba-a820effb307d" extendedConfigurationObject="9d77103a-9921-4f6c-98fc-d7f42f0f2d8d">
+  <producedTypes>
+    <refType typeId="b5c46153-3991-4f98-a91e-aebd379c1cf9" valueTypeId="2dec0921-58f5-45a2-a3fd-749ca5b0ede2"/>
+    <listType typeId="15b58908-feb4-461e-badb-7a089d7bbba9" valueTypeId="2a0a2967-8873-4451-a54b-be9c38a7590b"/>
+    <managerType typeId="54d99c6d-7b52-42eb-95ac-2665b80532ec" valueTypeId="6d0adfb4-e109-4be1-8abb-f722a5f6ab8a"/>
+  </producedTypes>
+  <name>ТипыТекстовЭлектронныхПисем</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6f9e1c14-1891-4b21-9ede-0a660f612968" extendedConfigurationObject="878d9efe-b0e7-487f-b8f7-83470c131e09">
+    <name>HTMLСКартинками</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

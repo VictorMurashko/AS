@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c30f8378-49ca-44b6-ac28-ff9467d9686d">
+  <producedTypes>
+    <objectType typeId="c1295c58-6e88-4c5e-a675-1efed12a5cbd" valueTypeId="249d9adf-8638-46da-8406-c8a0c6a9423f"/>
+    <managerType typeId="4dc2e849-fe26-4abe-84cf-a100540e0ce9" valueTypeId="d8736fa5-34c4-43a4-8160-fd2750eee24f"/>
+  </producedTypes>
+  <name>ВнешнийОтчетОтклонениеОтМАП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешний отчет отклонение от МАП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВнешнийОтчетОтклонениеОтМАП.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bad569b7-663d-49b3-aa98-64acf1544cfa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

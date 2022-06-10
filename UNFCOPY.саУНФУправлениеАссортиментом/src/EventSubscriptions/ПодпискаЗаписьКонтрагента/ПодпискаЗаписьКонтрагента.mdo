@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f05dbe5-573f-4c42-b49c-66bc64d5bf5f">
+  <name>ПодпискаЗаписьКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписка запись контрагента</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Контрагенты</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.саУНФ_Bitrix.ПодпискаЗаписьКонтрагентаПриЗаписи</handler>
+</mdclass:EventSubscription>

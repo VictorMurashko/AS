@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bb82032-4115-4241-9f6c-95859f1858e2">
+  <producedTypes>
+    <objectType typeId="11d0243e-c7e9-4f86-8cc6-36967dbf98be" valueTypeId="f596dc7a-7150-4e53-8df3-cb7ccd8e3256"/>
+    <managerType typeId="cd1dd99b-a65b-4e1b-bdf4-412b32813212" valueTypeId="14dfce61-98b2-4fc5-89bb-d9289e5bdb67"/>
+  </producedTypes>
+  <name>саУНФ_Инкассация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инкассация</value>
+  </synonym>
+  <defaultForm>DataProcessor.саУНФ_Инкассация.Form.Форма</defaultForm>
+  <forms uuid="aec25644-38d7-45e2-991b-1552f48def6f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

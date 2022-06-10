@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="41a9d42e-a967-4039-ae30-ff4f93bf3298" extendedConfigurationObject="b3085e54-964c-428e-8570-0c753e977f09">
+  <name>Продажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <content>InformationRegister.ОплатаЧерезBePaid</content>
+  <content>InformationRegister.ВыставлениеСчетовBePaid</content>
+  <parentSubsystem>Subsystem.МаркетингИПродажи</parentSubsystem>
+</mdclass:Subsystem>

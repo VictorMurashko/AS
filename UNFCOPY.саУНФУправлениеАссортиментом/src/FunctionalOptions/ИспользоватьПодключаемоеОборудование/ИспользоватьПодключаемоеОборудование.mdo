@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4bd2b1d7-2afa-4ffe-91e6-f3469ea1e3fe" extendedConfigurationObject="a9fced1f-1103-45ff-9b35-bed43e092da9">
+  <name>ИспользоватьПодключаемоеОборудование</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ФункциональнаяОпцияИспользоватьПодключаемоеОборудование</location>
+</mdclass:FunctionalOption>

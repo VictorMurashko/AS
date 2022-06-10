@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5832dd53-86ee-4401-9f30-dce41b641bc8" extendedConfigurationObject="db8e9be9-8f2e-4aab-94cd-9323d4b836cf">
+  <producedTypes>
+    <refType typeId="a235dae8-d695-4ae8-ae6d-acf4d651c26b" valueTypeId="412161da-b23d-4520-ba59-2cdbf1ad464a"/>
+    <listType typeId="3b9baa4b-8f84-4754-96f6-5b485447ff53" valueTypeId="8661ecad-1804-4dad-8a81-3d63dac5f20e"/>
+    <managerType typeId="cfd338a5-11bd-4136-ab1a-c004d5858d2d" valueTypeId="84c9b53b-b83f-435e-ad33-3c76530da5d5"/>
+  </producedTypes>
+  <name>ВидыОперацийРасходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="9e4daa26-1c0b-4928-bf14-97541bf12216" extendedConfigurationObject="8f164cdf-ade9-447a-aeb7-f7d9237c245a">
+    <name>ПродажаПокупателю</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

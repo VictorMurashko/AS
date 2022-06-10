@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d928a4a2-8493-476b-b201-6c6962c58db9">
+  <name>саУНФ_Bitrix</name>
+  <synonym>
+    <key>ru</key>
+    <value>Са УНФ bitrix</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

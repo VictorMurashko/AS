@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3e2b5415-e6c2-4feb-b7a7-7e011b145169" extendedConfigurationObject="4b47973a-4201-41f6-9d38-8db8f8fbd5ff">
+  <producedTypes>
+    <objectType typeId="3a564908-abe2-47d7-bf6f-1fcc8495d580" valueTypeId="425fe1bc-1eb5-4096-9050-77578ce11ba6"/>
+    <refType typeId="93b12fcc-5986-4670-ad28-462e6cad196d" valueTypeId="30cd4f18-3446-4fff-a413-9744a8b844a6"/>
+    <selectionType typeId="1099707f-53dc-4a2d-8f68-e8440492706f" valueTypeId="b070903d-5ff3-44c9-b5dc-702e9f9cb14f"/>
+    <listType typeId="d4181d73-b792-4610-bcc0-1cf8f7902fdf" valueTypeId="d9a1d06e-65ee-4763-9321-9e381079fbb9"/>
+    <managerType typeId="17fe6035-455f-49d5-b1f9-dc76008a1b80" valueTypeId="07e7d948-8616-450b-920f-02b8fe27f89a"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="c629d0c1-c926-4aa4-8945-4e790687b990" extendedConfigurationObject="d55e4703-b136-46a6-b401-0ae82ca1b41c">
+    <name>Ставка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

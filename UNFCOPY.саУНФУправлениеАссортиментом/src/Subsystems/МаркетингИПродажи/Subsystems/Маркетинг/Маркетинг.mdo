@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5668de1-1bb7-4b65-82d4-e34bed0c0a73" extendedConfigurationObject="0baa2215-41a0-4b89-aab7-876502a17e67">
+  <name>Маркетинг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <content>Document.саУНФ_УстановкаАссортимента</content>
+  <content>InformationRegister.саУНФ_НормыАссортимента</content>
+  <content>Catalog.саУНФ_ФорматыМагазинов</content>
+  <content>Enum.СпособОплаты</content>
+  <content>DataProcessor.саУНФ_ПечатьQR</content>
+  <parentSubsystem>Subsystem.МаркетингИПродажи</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebf462f2-0967-496a-b82c-6a18151559a3">
+  <name>Заявка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка</value>
+  </synonym>
+</mdclass:CommonTemplate>

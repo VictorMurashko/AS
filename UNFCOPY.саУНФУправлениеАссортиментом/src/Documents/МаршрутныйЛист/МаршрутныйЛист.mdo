@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51d158eb-bfab-4ea3-8ec2-4ae52aa5a8f0" extendedConfigurationObject="ac2d17bd-db15-4fb9-b0cd-cfccb376494f">
+  <producedTypes>
+    <objectType typeId="d55e01c4-eb40-4cd2-9aa3-307e0da78600" valueTypeId="e7aefbbc-c84d-43fb-9cfc-f37441b43741"/>
+    <refType typeId="419f9aff-3061-4297-ab7e-dd27b80ecb07" valueTypeId="2e79ef27-2caa-4110-8e17-18b485b74bf7"/>
+    <selectionType typeId="75e192b1-fd1f-4635-aac7-c19164fbc810" valueTypeId="a1066199-9620-4294-bcb2-9b66484bcfb2"/>
+    <listType typeId="328e1a0f-d710-41a1-ae28-e6bc2981e430" valueTypeId="c842942b-b196-4a44-b22f-40838d09471f"/>
+    <managerType typeId="7fb951b0-bf38-4cbe-bcb7-842f96e642eb" valueTypeId="05724efb-32b6-47d9-8aec-39373b2993e3"/>
+  </producedTypes>
+  <name>МаршрутныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

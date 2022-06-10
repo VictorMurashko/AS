@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9bfb6b8-2b61-4bb0-813d-a77b82459038">
+  <name>саУНФ_ПолныйДоступКЗаказСнабжения</name>
+  <synonym>
+    <key>ru</key>
+    <value>(са) Полный доступ к заказу снабжения</value>
+  </synonym>
+</mdclass:Role>

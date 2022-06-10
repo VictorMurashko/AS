@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="684a35c3-eca1-49f5-81ff-64de5467eca7" extendedConfigurationObject="e362a3ee-cbd4-427e-ba1c-135d2ac64280">
+  <producedTypes>
+    <objectType typeId="ebb597d3-4ec3-4007-ac45-34fa6abda873" valueTypeId="c5112863-c9b2-4b65-b470-681faffa886d"/>
+    <refType typeId="5acc97da-dbf8-4c7c-a363-ee1dc227d3b8" valueTypeId="f563652b-4b20-4254-8c15-c8ff5875626c"/>
+    <selectionType typeId="5491aad0-0470-486a-9a8a-4baa9087c29d" valueTypeId="b5300c90-29e1-4284-ba67-b95cb9f82fe1"/>
+    <listType typeId="f2cab8de-7ebc-4cd6-80ee-8a26a6bac620" valueTypeId="8362e8ac-413e-48c7-bacb-b5317f76872a"/>
+    <managerType typeId="3c665b2e-47f4-4f62-b2d5-1f8db71a6473" valueTypeId="a3828478-3ab9-4a12-9794-39170424c43e"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <hierarchical>Checked</hierarchical>
+    <hierarchyType>Checked</hierarchyType>
+    <defaultObjectForm>Extended</defaultObjectForm>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <defaultObjectForm>Catalog.ФизическиеЛица.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="bf62a44a-2f69-492f-b11b-e908b10c8e9f">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c367cde-3c53-4ad4-a877-82bc4e432979" extendedConfigurationObject="9e14912c-3e72-43a6-bcf4-596972af9386">
+    <name>Недействителен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="2f29c580-a129-4fa7-ab3c-8ca836190df9" extendedConfigurationObject="ee926eaf-dc5a-412f-a8a8-70f96c93db4b">
+    <producedTypes>
+      <objectType typeId="fb419be4-cd88-4746-ae3a-86d450d2240c" valueTypeId="ede6198d-f483-4c64-816b-0dc9c25abff4"/>
+      <rowType typeId="9946bfb6-5e33-463e-b148-0c834ea3c386" valueTypeId="cc634da7-456a-47f3-9a95-e7d182bfb93e"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="ab7ee26f-54bf-4d7d-af0d-a4aa9a9bed4b" extendedConfigurationObject="843462ec-1304-440c-adf1-20e04d768d76">
+      <name>Тип</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>EnumRef.ТипыКонтактнойИнформации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="df087366-b56f-4df7-b692-e47928a3c2ee" extendedConfigurationObject="07997f2a-265a-4e2e-8e3c-73bc062af70f">
+      <name>Вид</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ВидыКонтактнойИнформации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="60c2c13e-ca48-47b4-8139-05211c86dd21" extendedConfigurationObject="7a19d270-211a-4ffd-aa88-992e3cc0a1d2">
+      <name>Представление</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>500</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="661d82ea-3955-466d-8b41-57ddb311df26" extendedConfigurationObject="c807995d-a35e-41b1-a61f-ec07bce10da4">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="5b4634b9-531a-4d5e-851a-ecbed7b118b1">
+    <name>ФормаВыбораВодителей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора водителей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="069e1776-d266-4047-acd5-71d19df231f9">
+    <name>ФормаЛогистики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма логистики</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ca1757a2-3701-43ee-872f-82769978163e">
+    <name>Водители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водители</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterType>Checked</commandParameterType>
+    </extension>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

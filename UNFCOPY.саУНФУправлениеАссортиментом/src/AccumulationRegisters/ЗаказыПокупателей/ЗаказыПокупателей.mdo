@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c05ae54-d998-450b-b30f-170612905e06" extendedConfigurationObject="b9fd907f-6f64-47cc-9a66-8c235d72a73c">
+  <producedTypes>
+    <selectionType typeId="9b06ab82-9593-4269-ae42-84c804b6e0f9" valueTypeId="bbe1d5ae-204a-41cd-93e8-bcc8ddd6a6ab"/>
+    <listType typeId="e9f4baef-cc9a-4687-b743-64ab0983a870" valueTypeId="ece4755d-e5c6-4e66-9727-cfc32c8398b5"/>
+    <managerType typeId="d2b863c8-c015-43ff-a6a4-aa1037d0dd86" valueTypeId="c6215017-cff1-4e57-b31d-e50c9313d464"/>
+    <recordSetType typeId="5bf945e6-1e53-4235-9c5e-1628eb4a156a" valueTypeId="4fbb92e3-848f-4ccb-b99c-8ee06a636931"/>
+    <recordKeyType typeId="dd1b03ee-7cbc-4a6e-9eb1-f2f7df9273c3" valueTypeId="74197c4c-1fa6-4361-8d22-4dd282336bd3"/>
+    <recordType typeId="8a6606b6-7b7d-4ac3-84ab-7c835c78b350" valueTypeId="ab520a7a-da33-4f0e-8b88-baf1fff4e7f2"/>
+  </producedTypes>
+  <name>ЗаказыПокупателей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <resources uuid="4b79fa5e-012f-494e-bc53-8b14f03e88fb" extendedConfigurationObject="b7b24c9e-733b-4e9f-97c6-d6514ca7722e">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="ba5cf576-600d-440f-a5cc-2c475f66aaeb" extendedConfigurationObject="55fd3254-bb99-45bd-b284-6e1b335006fe">
+    <name>ЗаказПокупателя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

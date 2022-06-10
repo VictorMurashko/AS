@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2b532f6a-9bf5-4708-b96a-592d6a25f44f" extendedConfigurationObject="4e20e7bb-9585-422c-9ccf-8f17adff0487">
+  <producedTypes>
+    <containerType typeId="22386cbf-77df-4223-aea7-c9d557559314" valueTypeId="1b25484d-fe9f-4223-b2a0-30931f97690a"/>
+  </producedTypes>
+  <name>ОрганизацияБПО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

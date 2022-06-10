@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e0e03cbe-c013-4ca7-a646-b64c8bf5b40d" extendedConfigurationObject="8fd6c801-99bd-4e78-9b62-190762b9190c">
+  <producedTypes>
+    <objectType typeId="20ee8bb2-c324-44ce-9fa1-d62420cb33fb" valueTypeId="c6c12c26-73aa-4c07-ab3e-2643db8d7607"/>
+    <refType typeId="da624805-9747-4c4e-be46-1d4c275ea9bc" valueTypeId="65bef9fe-1412-4737-8f02-882465c5250c"/>
+    <selectionType typeId="4624edd7-ff2d-420d-8fd3-2d245da7fa4a" valueTypeId="4db46e42-3b97-41d1-821c-902df5b3be30"/>
+    <listType typeId="d71e07e2-5389-4071-b92c-0e56e96614dd" valueTypeId="7cbee166-33bf-4ffa-85d4-af5298955475"/>
+    <managerType typeId="cfb31014-bee8-457d-9c1f-86f4c327de35" valueTypeId="acb22541-8f2f-4a1a-84e9-6a02938c9f24"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="7d2b3f0d-be15-47f4-95dd-250b17e8830e">
+      <name>ПриемНаКомиссию</name>
+      <description>Прием на комиссию</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="82a19c9c-c3b5-4c0e-9cc7-94b11c3fb717">
+      <name>Перемещение</name>
+      <description>Перемещение</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

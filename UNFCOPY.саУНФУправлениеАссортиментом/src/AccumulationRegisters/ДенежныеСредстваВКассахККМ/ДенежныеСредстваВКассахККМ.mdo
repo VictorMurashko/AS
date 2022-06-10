@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8cf2914e-86f2-49e2-9fc9-e16ce2742c3b" extendedConfigurationObject="11ec31ba-bdd6-47cd-9b54-fc73e9615ad8">
+  <producedTypes>
+    <selectionType typeId="e10c5046-e877-44ce-a9c4-7b0abc731f0b" valueTypeId="0a296ecd-c94b-43ed-a7d7-0517179f936b"/>
+    <listType typeId="a31963fa-2c13-40a9-b7d7-39ee4393c6e5" valueTypeId="758c71b0-b511-4635-ab1f-c45b5d30f258"/>
+    <managerType typeId="e33b5d63-915b-44de-a305-d6e7679d8b93" valueTypeId="76d380b3-8163-4acc-85ab-ed0dea7bee34"/>
+    <recordSetType typeId="1db53839-a743-498c-a39f-8ae0679f50b1" valueTypeId="a6e7fb20-92b9-43be-8a36-60abdfe33f20"/>
+    <recordKeyType typeId="794eb951-e36e-44a7-a11b-f9bffbdf4199" valueTypeId="0907f615-b1be-4b2b-beaf-50c9b19a0f43"/>
+    <recordType typeId="bda294a0-1e22-4c5c-8b12-f99b3e24c0e4" valueTypeId="271dd0e5-e742-4804-ad8d-75781c453531"/>
+  </producedTypes>
+  <name>ДенежныеСредстваВКассахККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="bdb0fc17-4be9-40c7-a3ea-f7f040734251" extendedConfigurationObject="31935489-d3dc-4f0a-b8ea-6c1599a638d3">
+    <name>СуммаВал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="9c70b0e6-ef49-421f-8c01-78c504bc109a" extendedConfigurationObject="24b0c9e5-7e7f-479e-900c-24614a872719">
+    <name>КассаККМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КассыККМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

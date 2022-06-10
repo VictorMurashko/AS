@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2eeb27a1-0628-4197-8575-f9c46481313b" extendedConfigurationObject="5048f040-3271-4ca0-b653-0336d63b80a2">
+  <producedTypes>
+    <refType typeId="c5d56b48-b5c8-4b07-86b9-e37ec2e4b62c" valueTypeId="732573c4-7ba0-4900-94d2-7c6886dc515e"/>
+    <listType typeId="38ffbbc0-628b-45dc-a68e-a10df50d1583" valueTypeId="a8298e98-fd80-46c7-87fc-969fb8b636a7"/>
+    <managerType typeId="ccf6c3e1-6772-4c14-85af-c3e76d76d178" valueTypeId="68baa840-2671-41af-a2a5-4e83d832e0f9"/>
+  </producedTypes>
+  <name>ТипыКассККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="7951c5e2-129b-4b33-8a53-9a4f0809769c" extendedConfigurationObject="9c1f84f7-e798-4ff8-9abf-865fae170807">
+    <name>ФискальныйРегистратор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

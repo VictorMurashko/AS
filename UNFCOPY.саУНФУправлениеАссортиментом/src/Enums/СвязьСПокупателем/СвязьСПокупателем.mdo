@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5d266a7-1f44-4411-abb3-e5b3c6f7dbf8">
+  <producedTypes>
+    <refType typeId="88daded2-5515-4724-a618-f63f7c0325ba" valueTypeId="b5e7c6fe-0de8-49f1-bcde-c4f7a1696918"/>
+    <listType typeId="c20f06eb-101c-4835-b9cd-52a5b52a13a1" valueTypeId="e61819ea-c3c4-45db-9055-7cbef4af6240"/>
+    <managerType typeId="3a85dcb6-7e91-4f38-a16f-e801225b04a3" valueTypeId="d3f7a843-0f8e-4f79-a9e9-a120d44945b3"/>
+  </producedTypes>
+  <name>СвязьСПокупателем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь с покупателем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85b3760f-c985-4a5d-8f12-a63e9a9366d1">
+    <name>НеЗвонили</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не звонили</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a846db31-ac36-434a-a421-5aa1a6af0fdd">
+    <name>НеДозвонились</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не дозвонились</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="851b67d3-8de9-433b-a4b5-6ff2e5bc5821">
+    <name>ЗвонилиОК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звонили все ОК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4820f65c-75ac-4fe6-8947-1b181facbf64">
+    <name>ЗвонилиПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звонили есть проблемы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1520362-5e72-4e43-b5b0-df8601579cde">
+  <producedTypes>
+    <objectType typeId="7ef5b423-c23d-44c1-83e7-3ec676d33711" valueTypeId="b1ed68ed-d876-4b7f-9432-ac0f1fe0324e"/>
+    <managerType typeId="6e723373-e673-4305-ac84-1290450e99b2" valueTypeId="cbbc942a-6115-4cdb-8f5a-5181d00c268a"/>
+  </producedTypes>
+  <name>саУНФ_Автозаказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автозаказ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.саУНФ_Автозаказ.Form.Форма</defaultForm>
+  <attributes uuid="8903c152-56cd-4505-8e8c-2d0f78a98aca">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc92a7bd-4f10-4c78-9b70-955fc848ecf2">
+    <name>ОсновнойСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="80b66fcd-2aa8-4124-a2a0-53caee99c411">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

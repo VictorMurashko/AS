@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d90d7511-0e9a-4a96-a691-d0e053d2def6">
+  <producedTypes>
+    <selectionType typeId="16ac7bf2-d77e-468e-a823-4dd9995320cb" valueTypeId="e83efb41-145c-4215-b16d-86ce2068dc54"/>
+    <listType typeId="bffc5b2c-7bdd-4520-9f93-762a24556058" valueTypeId="35c1811d-c810-4c28-8181-bb807adb85f0"/>
+    <managerType typeId="647beb7a-0170-4dd5-b37e-8328ea45a804" valueTypeId="ac05021e-3fae-4a4c-8bac-d41df18c6ed4"/>
+    <recordSetType typeId="f5d2dff4-dcdd-47b8-ab66-2f861ba36d52" valueTypeId="7f5af01d-a798-4095-be2a-2bc7c67b9721"/>
+    <recordKeyType typeId="17dac5bb-4c21-477c-8e04-485163d57f83" valueTypeId="b325affc-43e8-4c3a-85dd-d6593c0a0430"/>
+    <recordType typeId="8db08ed5-8a4a-4577-98fb-2c66b869b692" valueTypeId="fce3314f-abd3-4f84-b2db-bdb6303fbb70"/>
+    <recordManagerType typeId="b47e5c28-8b55-43e8-b069-3c53b4839a1c" valueTypeId="c68533b6-bdd1-4159-8106-6a61229bc04f"/>
+  </producedTypes>
+  <name>НастройкаBePaid</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка be paid</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c3cb5045-e582-470f-a0ee-3d8bcd40991f">
+    <name>shop_key</name>
+    <synonym>
+      <key>ru</key>
+      <value>Shop key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="457563f5-0254-484b-9517-104d6e4666dd">
+    <name>shop_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Shop id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e678cc3b-2740-41a6-8744-56288c377883">
+    <name>service_no</name>
+    <synonym>
+      <key>ru</key>
+      <value>№ Сервиса в ЕРИП</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4895c65e-5296-470a-81e0-de812a8cb673">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>125</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

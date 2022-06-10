@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="147d497a-6ac9-47f5-a40a-9903c09cf5a8">
+  <producedTypes>
+    <objectType typeId="d9cf56f6-ae84-403a-94b0-fa62cd82d1db" valueTypeId="1aa2e704-3307-4561-b167-87003c1fe7e4"/>
+    <managerType typeId="a9be93cd-dcd9-4b30-aa3e-c55404560753" valueTypeId="c493985c-c142-482a-8854-dbc8a77dd2ad"/>
+  </producedTypes>
+  <name>саУНФ_РучнойЗаказ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ручной заказ Пинск - Минск</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.саУНФ_РучнойЗаказ.Form.Форма</defaultForm>
+  <attributes uuid="98b99332-9b21-4761-b538-4e6828831787">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="daba7acc-bb22-4f6d-85d2-3219f6cda737">
+    <name>ОсновнойСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ce1d539e-6e00-4a7a-8f2a-fb6ca6972d9f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

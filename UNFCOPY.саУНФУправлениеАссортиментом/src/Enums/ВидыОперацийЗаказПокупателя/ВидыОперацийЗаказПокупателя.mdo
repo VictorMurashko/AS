@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3111b55c-de96-47a8-aff5-324b22e970cc" extendedConfigurationObject="abca0eb3-f5c5-4fdc-9dfb-2984a5e79fb6">
+  <producedTypes>
+    <refType typeId="99e3853b-c4b8-4ff2-8059-0a5d8224f853" valueTypeId="be55eba4-565c-4042-9824-55d789d50145"/>
+    <listType typeId="8a4acfa4-f525-49ca-b51f-4ae95ed7d5ae" valueTypeId="5d863465-0721-4bd7-a94d-4e05b455acc6"/>
+    <managerType typeId="904ace9c-7d2a-449c-ad7e-12827d7b76c4" valueTypeId="87b71291-e2e9-46f6-af2b-d028db804110"/>
+  </producedTypes>
+  <name>ВидыОперацийЗаказПокупателя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="7a07c0ef-04bd-4289-bbf0-2b11b65694ad">
+    <name>саУНФ_ЗаказСнабжения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ снабжения</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="22262c6f-b730-49b5-81bb-65a32c5b36ad" extendedConfigurationObject="9a38d142-c39a-4c4a-9d2e-e4b56007d36c">
+    <name>ЗаказНаПродажу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

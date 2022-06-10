@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="18c09b06-17ba-4878-b1d4-613a795dea6a" extendedConfigurationObject="619b38a5-86f8-4cd4-8c33-5cccf63e7f21">
+  <producedTypes>
+    <refType typeId="2efea2af-f1bb-40b1-a9f4-4dcb7c81b544" valueTypeId="5069e513-c2af-4a14-b6a9-cef516547ea4"/>
+    <listType typeId="0dc3c144-25e8-48d8-b3ad-09b24eedbc4a" valueTypeId="210868fe-7bd4-45b9-9c3a-572fde5aa252"/>
+    <managerType typeId="67770aa0-7a39-4ca9-86c9-4211446d5e61" valueTypeId="9f69c9b7-eb08-4ff2-864f-b2fa60e463d3"/>
+  </producedTypes>
+  <name>ВидыЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="4b6b3efe-2aeb-4949-af47-80329af8207c" extendedConfigurationObject="dc4b5af1-239b-4a4f-a85a-586bc098a20f">
+    <name>ТОРГ12Продавец</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="703e842a-7d26-4cdd-955c-c27f9c68f950" extendedConfigurationObject="4d817c2e-cea0-462b-b43e-357000d4de8d">
+    <name>АктИсполнитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="929c8b68-a523-480d-b254-e74a31983047" extendedConfigurationObject="2a47c137-6b65-4074-9ac1-97efb8442e6d">
+    <name>АктНаПередачуПрав</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

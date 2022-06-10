@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b44df84-303f-48f6-a104-3de9a7b9756a">
+  <producedTypes>
+    <refType typeId="109a00d8-ade3-4b72-8623-622750bcbbc6" valueTypeId="582961a4-7509-4994-b782-36820267cb20"/>
+    <listType typeId="d5be70fd-5930-44c3-ab12-099580c1d520" valueTypeId="1b57bd2e-0d46-45a6-a426-5e3027474005"/>
+    <managerType typeId="f1008535-a1e6-4ef1-a76a-4574b8233dbe" valueTypeId="a313a6ec-22ed-45be-b6c1-d461114de2a4"/>
+  </producedTypes>
+  <name>саУНФ_СостояниеМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние магазина</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1db4b8d-a93f-4db1-8623-7884b91794b7">
+    <name>Открытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="912aceee-fcda-417b-98f3-bac4a2c67721">
+    <name>Закрытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

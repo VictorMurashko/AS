@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="44e46f76-aef2-45fc-a3c9-fd4f54008ad6" extendedConfigurationObject="ec7f89e5-9da1-40f9-97f2-338018f8f4a1">
+  <producedTypes>
+    <refType typeId="cceca03e-43eb-4863-9b78-726f5b0aa32a" valueTypeId="25585feb-734f-40e5-b3d8-da095205f43b"/>
+    <listType typeId="e57f8c9f-29e4-4d06-a3c5-e5d8da38b67c" valueTypeId="a6e89ed8-b5f9-40d6-80c2-1e6c20f5e5c9"/>
+    <managerType typeId="9cfabacd-8467-41f6-a684-bac3018879d3" valueTypeId="a3b4d386-010c-4ad5-bb41-2ef67bac5f50"/>
+  </producedTypes>
+  <name>СпособыЗачетаИРаспределенияПлатежей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="c60c054c-cbc8-48ae-928a-75c2db6cf2ec" extendedConfigurationObject="48e6d05e-8b3d-422a-9cd2-44f911caf9c9">
+    <name>Авто</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="32966154-1ca2-4551-9801-8ef59a6b08bb" extendedConfigurationObject="5fe38c36-f719-4f3a-9952-dc955b1590f6">
+    <name>Вручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

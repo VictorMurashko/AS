@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1415871d-94af-4377-8668-511808b69a0e" extendedConfigurationObject="ccb82519-1bea-4ff7-87e8-d0f6d293f9ed">
+  <producedTypes>
+    <managerType typeId="8d76c978-e5e4-471d-b7f4-ed5e5fc9cd74" valueTypeId="248265eb-938b-4111-bd96-d54e48f255c6"/>
+    <valueManagerType typeId="31d971fc-a457-4ef4-9ca8-2a25116395ed" valueTypeId="fc61c6e0-ef1f-4b08-b5d8-4ce6c171852c"/>
+    <valueKeyType typeId="e7c8c86b-0457-417a-ab41-3b683ffe2127" valueTypeId="f8ae9540-e367-4619-bbd4-b9c013c06fae"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетГТД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05aad0f3-21aa-4e88-a0ef-b7c0bdb52f78">
+  <producedTypes>
+    <objectType typeId="5d2ff947-e0d0-4e9b-8340-19be6421d149" valueTypeId="f87d0437-b51c-439b-95b5-888ec4b3104a"/>
+    <managerType typeId="62e89f48-fb74-4e27-a6e2-904ca28ca68a" valueTypeId="b5a95cbb-9d2e-4523-95c5-d1484ec66500"/>
+  </producedTypes>
+  <name>саУНФ_КонтрольОткрытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль открытия магазинов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.саУНФ_КонтрольОткрытия.Form.Форма</defaultForm>
+  <forms uuid="168eb4fb-149b-4e68-84e8-34de5cbb3c51">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

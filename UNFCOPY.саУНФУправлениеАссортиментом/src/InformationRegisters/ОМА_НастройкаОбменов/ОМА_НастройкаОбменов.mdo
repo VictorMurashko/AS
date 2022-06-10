@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="837bd8c4-2d0e-4325-82e7-a48f581ab3f6">
+  <producedTypes>
+    <selectionType typeId="a7bbfb72-a98e-4b9c-86d2-db1281d23c57" valueTypeId="93f21fda-18b7-426d-a203-7d4c118f2f59"/>
+    <listType typeId="1f68ae44-45b7-45f3-a473-1ba857bf1306" valueTypeId="03faf720-9d1e-4e5e-a256-057abea3a4fc"/>
+    <managerType typeId="874a2862-4ddb-4a13-a05a-305b61254fe7" valueTypeId="908489dd-1f8d-4e04-8c2a-6bb0cd264d26"/>
+    <recordSetType typeId="b47abb35-8dab-4b7b-ab0a-ab852423e49e" valueTypeId="03155e31-5b80-4fda-81d4-41b22aa7a2e0"/>
+    <recordKeyType typeId="d1666465-2a66-4731-abd2-588a9f53c8a1" valueTypeId="4f681acd-4002-405e-b6a8-832a7a94a747"/>
+    <recordType typeId="3689a112-ad46-4671-a911-ffc35c5a9fa2" valueTypeId="2c51e824-e4ad-4857-9a28-f212cf7ebd3a"/>
+    <recordManagerType typeId="153b667f-654b-45bf-9a01-2ff3df8a3438" valueTypeId="c1c1ff77-334f-4beb-b418-4877e59cfde2"/>
+  </producedTypes>
+  <name>ОМА_НастройкаОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОМА настройка обменов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="abd8de94-f453-4825-8cc4-c7ce66597a07">
+    <name>КаталогТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог товаров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fa4a38ef-d8bf-4018-9540-6a0a052c9f94">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e6b582a8-8d2a-4905-8eed-43d4bf6a5dcd">
+    <name>ВидСтавкиНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ставки НДС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСтавокНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6b37d0d5-89b8-4cc8-96e4-d6b814cb3a42">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаправленияДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="730c48dd-b2bd-4590-9c2f-0fcae53de7b4">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3b868790-3587-4504-a6a6-839e9f3fa54c">
+    <name>ДоговорПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор поставщика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ОМА_НастройкаОбменов.Resource.Поставщик</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6099e772-6afd-49d4-a191-0bf40947b08b">
+    <name>ДоговорПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор покупателя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ОМА_НастройкаОбменов.Resource.Поставщик</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="619b3750-9c8e-484a-9069-814067c42d80">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1262536f-7d69-4f78-ac0b-f4fc6d5f3272">
+    <name>СкладВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад возврата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9827e786-d8b4-4a33-8e90-436cc8fd4055">
+    <name>СчетУчетаДоходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета доходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Управленческий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="02a4dde7-6978-4bf2-ab5d-6bd18fa850d3">
+    <name>СчетУчетаЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета запасов</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Управленческий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8aada84c-3dd1-4f7b-83f3-9118a053f011">
+    <name>СчетУчетаЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета затрат</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Управленческий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0b6b37ac-122b-4157-8d8e-b4fe3e3b8e7b">
+    <name>НеВыгружатьНаСайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать на сайт</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="172934a6-1b67-459e-82ed-27711886fd74">
+    <name>ВидЗаказаОМА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид заказа ОМА</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="edbad033-1733-47df-8ef2-16210646957e">
+    <name>СостояниеНовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние новый</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a1f454a3-71b9-443d-ace0-f2307481ffa3">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="494e72f2-6af7-41f1-bea9-955e200af246">
+    <name>ВидЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид цен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="828fa70f-8643-4825-b9ef-f1c50056197e">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипСтруктурнойЕдиницы</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыСтруктурныхЕдиниц.EnumValue.Подразделение</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d28a59e-6a5d-4207-8bd1-e4e6e13991e3">
+    <name>СостояниеВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние в работе</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="57b49a1d-6b96-4d2d-9b48-639ace587aa1">
+    <name>СостояниеОтклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние отклонен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2cfd20be-721f-4b19-90cb-e6c5ba37935e">
+    <name>УзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел обмена</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменСтатусамиОМА</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d267770-6dd2-43ca-9668-6f56cb83ea2c">
+    <name>СостояниеНаРЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние на РЦ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="16bb03dd-80b8-4ae5-be58-4d23aa86cf82">
+    <name>СостояниеВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние в пути</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="07235787-9c7f-404f-800e-9e0847f06706">
+    <name>СостояниеНаРТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние на РТТ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f24e67d3-cdde-4c17-bb3a-fef5902d1b47">
+    <name>СостояниеЧастичныйВозврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние частичный возврат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b95561d3-349d-4748-a843-23723cffa0b5">
+    <name>СостояниеВозврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние возврат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a95f6638-d5ae-4c94-a00a-7ffd63bb2f00">
+    <name>СостояниеВПутиНаРЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние в пути на РЦ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d7c5c6ae-0d45-4e12-bb3c-72777c90a641">
+    <name>НомерНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер настройка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

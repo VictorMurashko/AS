@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6840ade0-01f5-4f48-a9a5-c96424e8577a">
+  <producedTypes>
+    <objectType typeId="96f939de-0201-4406-bcb0-2ba69d5016e4" valueTypeId="ce0692f0-1418-4b5b-9b90-083963f80a94"/>
+    <managerType typeId="4e4a9fd9-3702-4f3b-a995-b8da75326fa9" valueTypeId="22761732-4bf2-4d5f-a392-0021a43b113f"/>
+  </producedTypes>
+  <name>саУНФ_ПечатьQR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать QR</value>
+  </synonym>
+  <templates uuid="021be9cd-2c7a-46b9-8a30-1dbafc01e78a">
+    <name>ПФ_MXL_ЭтикеткаСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетка счета</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

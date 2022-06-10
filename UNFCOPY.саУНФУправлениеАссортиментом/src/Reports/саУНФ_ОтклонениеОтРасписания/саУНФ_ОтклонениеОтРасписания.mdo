@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeffd9f6-077e-47a8-bbf8-1280f2121753">
+  <producedTypes>
+    <objectType typeId="b5e8a5dd-3cd4-40dd-981c-e3e3d93ec117" valueTypeId="41925561-b62a-474b-a6ba-c7ca844774ef"/>
+    <managerType typeId="b1b82ed4-67a7-4552-85df-a14c2ba3eaf0" valueTypeId="b2edb8a6-a761-4af0-88ca-e6e900414ec6"/>
+  </producedTypes>
+  <name>саУНФ_ОтклонениеОтРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонение от расписания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.саУНФ_ОтклонениеОтРасписания.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="acaead04-be17-4ecb-8121-34ffd7e3ceee">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

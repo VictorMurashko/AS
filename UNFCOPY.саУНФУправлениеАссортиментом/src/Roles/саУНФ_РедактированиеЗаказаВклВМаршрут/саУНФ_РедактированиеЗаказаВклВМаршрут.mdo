@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="254f9d45-32bc-4d58-b52e-b2bbdd511b83">
+  <name>саУНФ_РедактированиеЗаказаВклВМаршрут</name>
+  <synonym>
+    <key>ru</key>
+    <value>(са) Редактирование заказа вкл в маршрут</value>
+  </synonym>
+</mdclass:Role>

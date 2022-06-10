@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f0a0bc8-fded-40a2-aa9d-96c3edc72917">
+  <producedTypes>
+    <selectionType typeId="b863885b-6407-48fc-ae33-8e907603c6c1" valueTypeId="786f751a-f5cd-4f6d-ba30-e0d430e231f2"/>
+    <listType typeId="1cd75abd-ad86-4030-941a-9600b9e591ad" valueTypeId="b667a291-67fa-4d09-8075-c6850dec508c"/>
+    <managerType typeId="1c7fffeb-295c-4a0d-80dc-d730708fcd18" valueTypeId="99ab4594-12cf-4eb5-88ac-e4a2fe8b90d4"/>
+    <recordSetType typeId="4c846b41-6f29-4a14-aadd-a1f5fef4c2e1" valueTypeId="6549466c-a34d-4cb6-805e-8e002ab92df9"/>
+    <recordKeyType typeId="e1634b73-0300-4c21-9e86-5474669d1a00" valueTypeId="ef16d1f0-4cfc-4b5c-8eaa-bb86ae730e15"/>
+    <recordType typeId="9736b084-acad-42a3-9c8a-8b81a602f77a" valueTypeId="dd86e9f8-bf8c-42e7-9242-eb6c169bc521"/>
+    <recordManagerType typeId="494a5f3a-10ee-4042-baf3-bf6994a98c59" valueTypeId="a9a022f7-2bbe-4e49-b998-261d1a54a781"/>
+  </producedTypes>
+  <name>саУНФ_ОтправкаЗаказаПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка заказа поставщику</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2e5ca9df-073e-4830-9459-15b8f6819eef">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b116fd0a-18be-4cfd-8826-7a797840febe">
+    <name>СтруктурнаяЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структурная единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеЕдиницы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

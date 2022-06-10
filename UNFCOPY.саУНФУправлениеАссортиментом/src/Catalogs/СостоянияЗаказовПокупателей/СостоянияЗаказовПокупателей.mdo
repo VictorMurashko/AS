@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8d950a28-a10c-42a5-a630-2db6d3550921" extendedConfigurationObject="a2b1dc61-98ce-4fe4-ae3d-fabbd7218633">
+  <producedTypes>
+    <objectType typeId="92018e4c-3300-421a-8e72-50daa290f79a" valueTypeId="4f9acfb4-f6b3-4aa9-8698-770326c65068"/>
+    <refType typeId="5de20ba4-f5e5-485d-862d-b4b17589e494" valueTypeId="98bff6fc-63ab-4e24-88d8-567f2eb9bc17"/>
+    <selectionType typeId="5d83c952-ce5d-4e7e-9739-9709f8e36430" valueTypeId="019cba34-8e91-4b0f-aa6b-d3a039b31b69"/>
+    <listType typeId="04c40cb7-ed94-48d9-9228-2187ecb1baf5" valueTypeId="7fd03f42-4bae-4144-b877-3607ba86be60"/>
+    <managerType typeId="97ea0b98-b2c5-4e51-9858-747d792515a7" valueTypeId="3397a56a-82cc-4b02-b430-f2036db56ffe"/>
+  </producedTypes>
+  <name>СостоянияЗаказовПокупателей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="37ff11f8-f312-4ac9-9da2-acba6a63a096">
+      <name>Завершен</name>
+      <description>Завершен</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

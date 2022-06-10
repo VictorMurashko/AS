@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c78bc6bd-9473-4a5f-a91c-2b83d35ec1a4" extendedConfigurationObject="d59c2725-5d98-495e-9f86-f5d38dbfad90">
+  <producedTypes>
+    <selectionType typeId="7ec85606-9e74-420a-9562-64a9d8046444" valueTypeId="1f5c78de-db7a-4694-bbea-fc3b274a4da6"/>
+    <listType typeId="7899f466-153b-4bc2-8bba-68df7572171c" valueTypeId="1fe99649-205f-4855-8fe7-4285ab7a3a2b"/>
+    <managerType typeId="2e0ab299-cb25-44ec-bab7-5f9ea672aa66" valueTypeId="679c47d7-8054-4b89-a46f-1507bebe7223"/>
+    <recordSetType typeId="56bd3a93-5c5e-471f-871d-c3b4e7574fb1" valueTypeId="d6a5efe8-f15a-4063-90d3-355acf820076"/>
+    <recordKeyType typeId="a2beba98-58c9-4064-90e8-c12fde7c976e" valueTypeId="4563c1bc-2d6d-44ae-b22c-e616ef705b49"/>
+    <recordType typeId="e4ad4b44-2d93-4f29-9e99-b5ed84d7710c" valueTypeId="20042d42-6ff6-4591-adae-e7dbd7b8ac04"/>
+    <recordManagerType typeId="98e14451-02a2-41cb-985c-f15dd671173a" valueTypeId="a044e14b-6aeb-4130-8e78-c4bfe2cd325c"/>
+  </producedTypes>
+  <name>ДатыЗапретаИзменения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="ee0764e0-8162-4c32-8de1-e3f0afe9b671" extendedConfigurationObject="176f8835-73d2-4fbe-9d2a-0a4c79d3b871">
+    <name>ДатаЗапрета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="8838db5a-c3b3-4ec0-a1fc-29b6acbf96b2" extendedConfigurationObject="d7a128e4-f31f-4b09-8424-e816ab59d5c3">
+    <name>Пользователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.АдресатЗапретаИзменения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>
