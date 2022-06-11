@@ -1576,7 +1576,7 @@
             <choiceParameterLinks>
               <name>Организация</name>
               <datapath xsi:type="form:DataPath">
-                <segments>1</segments>
+                <segments>Объект.Организация</segments>
               </datapath>
             </choiceParameterLinks>
             <choiceParameterLinks>
