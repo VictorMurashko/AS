@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделРаботы</picture>
   </picture>
+  <content>InformationRegister.саУНФ_НастройкиСЦ</content>
 </mdclass:Subsystem>

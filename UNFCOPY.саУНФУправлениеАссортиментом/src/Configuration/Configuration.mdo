@@ -197,6 +197,7 @@
   <commonForms>CommonForm.КонтактыЮрЛица</commonForms>
   <commonForms>CommonForm.АРМ_Диспетчера_ОМА</commonForms>
   <commonForms>CommonForm.АРМ_Склад_ОМА</commonForms>
+  <commonForms>CommonForm.ВводГарантийногоТалона</commonForms>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.ГрафикиРаботыМагазиновИФилиалов</catalogs>
@@ -300,6 +301,8 @@
   <enums>Enum.СпособыПополненияЗапасов</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ВидыОперацийПриходнаяНакладная</enums>
+  <enums>Enum.саУНФ_СрокиГарантииДубль</enums>
+  <enums>Enum.саУНФ_Топливо</enums>
   <reports>Report.саУНФ_ОтчетОстаткиЗаказов</reports>
   <reports>Report.саУНФ_СписокРолейПользователя</reports>
   <reports>Report.саУНФ_НедостачиВФилиалах</reports>

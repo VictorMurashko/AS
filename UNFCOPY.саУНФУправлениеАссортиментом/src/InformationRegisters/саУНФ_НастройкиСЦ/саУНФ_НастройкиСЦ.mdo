@@ -17,26 +17,33 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки СЦ</value>
+  </recordPresentation>
   <resources uuid="eafd5e45-1abf-4f94-b625-98b476d7fdb5">
-    <name>ЗначениеПарметра</name>
+    <name>КатегорияНоменклатуры</name>
     <synonym>
       <key>ru</key>
-      <value>Значение парметра</value>
+      <value>Категория номенклатуры</value>
     </synonym>
     <type>
-      <types>String</types>
-      <types>Number</types>
-      <types>Date</types>
-      <types>Boolean</types>
       <types>CatalogRef.КатегорииНоменклатуры</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>3</scale>
-      </numberQualifiers>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="35510a7e-e6da-4893-a143-e2451f11c7fb">
+    <name>ВидЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид заказа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЗаказовПокупателей</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -45,10 +52,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="13243845-97cf-4c59-aa63-491512481eed">
-    <name>Параметр</name>
+    <name>НомерНастройка</name>
     <synonym>
       <key>ru</key>
-      <value>Параметр</value>
+      <value>Номер настройка</value>
     </synonym>
     <type>
       <types>String</types>
@@ -58,6 +65,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>

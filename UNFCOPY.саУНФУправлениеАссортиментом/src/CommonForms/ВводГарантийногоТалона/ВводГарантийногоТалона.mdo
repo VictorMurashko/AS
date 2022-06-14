@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14cafb79-bcb1-4f0f-960c-6e356c985cb9">
+  <name>ВводГарантийногоТалона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод гарантийного талона</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

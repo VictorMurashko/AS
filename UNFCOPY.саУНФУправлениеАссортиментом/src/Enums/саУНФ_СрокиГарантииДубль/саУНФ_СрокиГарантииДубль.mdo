@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16bf714a-3c93-4d5c-bfca-e7ddc496f4b6">
+  <producedTypes>
+    <refType typeId="0e31310e-d5af-458a-9067-fcd8d21249c7" valueTypeId="f6e77fd2-8c2e-4d63-87cb-32f296ded50e"/>
+    <listType typeId="4480b775-861e-4b20-9bad-c50960bd6035" valueTypeId="1df38f9a-62c4-4af1-b20c-8502e81c67a1"/>
+    <managerType typeId="bcf3a791-e966-4ce5-9492-27f24f719b8a" valueTypeId="478ea5a6-b987-4d4a-88be-397d1555176c"/>
+  </producedTypes>
+  <name>саУНФ_СрокиГарантииДубль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки гарантии дубль</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87912ee2-631e-4078-b504-2f4208e5b5bf">
+    <name>_6_месяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>6 месяцев</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edf08c3a-6717-48de-bf31-4693f8bb9f47">
+    <name>_12_месяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>12 месяцев</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71fec43b-69ff-4f06-8603-02f80b1a17b5">
+    <name>_24_месяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>24 месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99d4ac21-5b50-455f-b549-c3631212ec7d">
+    <name>_36_месяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>36 месяцев</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd19d6c0-4b70-4917-baf5-092d473b843c">
+    <name>_48_месяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>48 месяцев</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

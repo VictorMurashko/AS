@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="995f51f6-d67b-4286-83f5-eca3f597fbdf">
+  <producedTypes>
+    <refType typeId="da7da4f4-f074-4d02-90a4-a34c498c770e" valueTypeId="880bf54f-a9f8-49a7-82cd-a1ca266855a3"/>
+    <listType typeId="f16788fb-a528-41c4-ace1-17fe89898b4a" valueTypeId="71015e5e-e575-4c4e-bf0a-e52043509b24"/>
+    <managerType typeId="190b11fd-b5be-4f3c-946d-db32bc8fa3f5" valueTypeId="acad7415-68ab-40d8-bbdb-6c4473ac5d03"/>
+  </producedTypes>
+  <name>саУНФ_Топливо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Топливо</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="13cf2511-0a3c-4176-8f32-c8491321877b">
+    <name>Бензин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бензин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9a62af9-8a32-4eaa-a2a4-f8baa1b05e85">
+    <name>Дизель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дизель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
