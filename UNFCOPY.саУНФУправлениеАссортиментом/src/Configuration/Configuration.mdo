@@ -43,6 +43,7 @@
   <subsystems>Subsystem.саУНФ_Автозаказ</subsystems>
   <subsystems>Subsystem.Логистика</subsystems>
   <subsystems>Subsystem.ОМА</subsystems>
+  <subsystems>Subsystem.СервисныйЦентр</subsystems>
   <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
   <styleItems>StyleItem.ЦветЗаголовкаМонитораРуководителя</styleItems>
   <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
@@ -107,6 +108,7 @@
   <commonPictures>CommonPicture.КонтактнаяИнформацияЕмэйл</commonPictures>
   <commonPictures>CommonPicture.ВниманиеВВидеТреугольника</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.РазделРаботы</commonPictures>
   <roles>Role.саУНФ_УправлениеАссортиментом</roles>
   <roles>Role.саУНФ_ЧтениеНормыАссортимента</roles>
   <roles>Role.саУНФ_ПолныйДоступКЗаказСнабжения</roles>
@@ -350,6 +352,7 @@
   <informationRegisters>InformationRegister.ОМА_НастройкаОбменов</informationRegisters>
   <informationRegisters>InformationRegister.ОМА_ХранениеЗначений</informationRegisters>
   <informationRegisters>InformationRegister.ОМА_СостоянияЗаказов</informationRegisters>
+  <informationRegisters>InformationRegister.саУНФ_НастройкиСЦ</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Запасы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.саУНФ_Заказано</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ДенежныеСредстваВКассахККМ</accumulationRegisters>

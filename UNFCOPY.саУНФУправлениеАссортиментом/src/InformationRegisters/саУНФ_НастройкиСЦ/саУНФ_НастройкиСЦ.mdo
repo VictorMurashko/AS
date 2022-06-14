@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ebe6060-1693-4b1e-ad57-e060d53d1de5">
+  <producedTypes>
+    <selectionType typeId="353fd891-68d9-4628-a868-9dba8990acb5" valueTypeId="9aa89d16-da08-4f9c-86a8-82a6a30a4507"/>
+    <listType typeId="23522410-671a-48f6-8521-0874838cadc9" valueTypeId="024134c4-6a01-44cc-811f-d5a6894d00cd"/>
+    <managerType typeId="4bccfcc2-b2bf-4bac-820f-84da2fc7666c" valueTypeId="08121a48-0786-4656-932a-df64a0ad5758"/>
+    <recordSetType typeId="b3cb80a6-0b69-48ae-b3a9-ebf0ab060c98" valueTypeId="0a83307c-cee0-41bf-8082-573b482c8cfa"/>
+    <recordKeyType typeId="295c233a-e107-4532-b35b-2f3d6945c212" valueTypeId="4b4c6a11-2d1c-40f9-9357-d9c0538cd60c"/>
+    <recordType typeId="c61a674f-4429-4730-8ce6-03b762e80f3b" valueTypeId="76305fc3-6723-4f9d-8c31-f1aa9fb184ce"/>
+    <recordManagerType typeId="23ed643b-b20f-4890-b927-6c734f95e6a7" valueTypeId="e4c987db-9f83-4b46-9a40-b288b05d674c"/>
+  </producedTypes>
+  <name>саУНФ_НастройкиСЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки СЦ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eafd5e45-1abf-4f94-b625-98b476d7fdb5">
+    <name>ЗначениеПарметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение парметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>Number</types>
+      <types>Date</types>
+      <types>Boolean</types>
+      <types>CatalogRef.КатегорииНоменклатуры</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="13243845-97cf-4c59-aa63-491512481eed">
+    <name>Параметр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
