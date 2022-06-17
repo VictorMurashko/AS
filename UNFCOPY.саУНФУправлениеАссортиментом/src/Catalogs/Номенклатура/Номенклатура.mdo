@@ -27,7 +27,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d6ed844a-7ae9-4f13-8433-43e351085408" extendedConfigurationObject="943e74c4-655a-4b9c-b82e-7e5efda13c74">
     <name>Артикул</name>
@@ -44,7 +43,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="cc4172b3-6ae6-4fb9-8906-ae852cc2797b" extendedConfigurationObject="c5e9b842-544a-44f2-ab17-9f8914c321c7">
     <name>Вес</name>
@@ -58,7 +56,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="647c6815-b3be-4cdf-9c13-9dd1462bdf2b" extendedConfigurationObject="a74696bf-5501-4ca5-88cb-7bfa51d5ba5c">
     <name>Объем</name>
@@ -72,7 +69,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="22426a33-285a-4a61-9434-b2608d9145ce" extendedConfigurationObject="684049cc-bea4-46ee-b11f-a71286339275">
     <name>КатегорияНоменклатуры</name>
@@ -86,7 +82,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="cb61e95b-0027-4828-9100-841b35c57b1a" extendedConfigurationObject="29ee8eb2-cd83-4cc1-b40d-4e152378ea5c">
     <name>ЕдиницаИзмерения</name>
@@ -100,7 +95,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="943c544d-6388-4aa1-b44f-b7f46aea3913" extendedConfigurationObject="f21ff321-715f-4a5b-944b-2b848961de15">
     <name>Высота</name>
@@ -119,7 +113,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1ae0ffeb-ad61-4791-9728-f5168f5d5608" extendedConfigurationObject="b6172ca7-1aac-4ae9-923c-78be3ad52817">
     <name>Длина</name>
@@ -138,7 +131,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e031017c-9c02-4052-b9ed-abf877fc68aa" extendedConfigurationObject="25d2b654-7af2-4ff9-9565-690f90e3301d">
     <name>Комментарий</name>
@@ -153,7 +145,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="8aeb4454-940d-4dce-8ef9-2b3b3e4d95ea" extendedConfigurationObject="1272ae5d-3d76-41d7-8089-96b9d0e2171d">
     <name>МетодОценки</name>
@@ -167,7 +158,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="88a1944b-6fc6-4203-b891-4ab7bc4ed572" extendedConfigurationObject="c14397a9-756b-499c-a0cb-dffb36b39d37">
     <name>НаименованиеПолное</name>
@@ -182,7 +172,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="5a187359-e01b-4557-9ce8-b6455dd1c5bd" extendedConfigurationObject="4a820996-d36c-4681-a90e-8bddd53206e6">
     <name>НаправлениеДеятельности</name>
@@ -196,7 +185,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="8e42f6e3-8e9a-4c95-b1c6-80a44c8dffe0" extendedConfigurationObject="a4fec3ac-4e1d-4920-a364-ed3b4ea7789d">
     <name>ПроверятьЗаполнениеПартий</name>
@@ -210,7 +198,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="aa5ec160-c3cd-44a4-9075-fe8250349a2f" extendedConfigurationObject="2422f318-d2d7-4825-8a73-3422fb7c9b76">
     <name>Склад</name>
@@ -224,7 +211,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="5da67571-242a-4035-946b-bea1b2e7f9a3" extendedConfigurationObject="e9ae7ccb-58d3-4b59-908e-f8ae3990cdf5">
     <name>СчетУчетаДоходов</name>
@@ -238,7 +224,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c47d262a-50de-4a46-8cd6-f98573877b7f" extendedConfigurationObject="4366f2f7-ebc2-41cc-b496-b7c9db977701">
     <name>СчетУчетаЗапасов</name>
@@ -252,7 +237,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="030f409a-01e9-4a91-9f62-4dcd80cc18ed" extendedConfigurationObject="fecab396-8b88-44fa-b328-6a0a2920dfc4">
     <name>СчетУчетаЗатрат</name>
@@ -266,7 +250,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="5f7b5516-807a-4bdf-87eb-b900534fb2cb" extendedConfigurationObject="142f8ba7-a38b-4348-9c20-d7d426b19366">
     <name>ТипНоменклатуры</name>
@@ -280,7 +263,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="7320105e-c359-45f6-b2c4-d3c0a58abb43" extendedConfigurationObject="27d64301-1b5e-4ac9-82b2-fc31566ecc01">
     <name>ВидСтавкиНДС</name>
@@ -294,7 +276,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="ab86964d-1643-44fe-bd9f-251a1e7b2bc5" extendedConfigurationObject="9ee9a54f-4c2c-4fe3-b88f-73e8003f88a0">
     <name>Ширина</name>
@@ -313,7 +294,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="bf5510d4-1eae-4a70-a8be-a7ebcba31c85" extendedConfigurationObject="10add62f-df6c-44d4-a086-eb92ce5f478b">
     <name>Недействителен</name>
@@ -327,7 +307,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="5afe6441-5d5c-4267-b68c-af5252018b2f" extendedConfigurationObject="329a9d17-e027-4bae-8fc7-744dd587d5c4">
     <name>ИспользоватьПартии</name>
@@ -341,8 +320,58 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
+  <tabularSections uuid="9e0ca807-d7a6-450c-bfaa-57c896cdbf91" extendedConfigurationObject="bd8e047b-adf8-40d6-bb50-46e0d3ab9614">
+    <producedTypes>
+      <objectType typeId="961819e0-c3f1-4239-bf1b-1bb4041bb3bc" valueTypeId="83ece2b6-d0e3-41ec-8d44-feaa68b28c10"/>
+      <rowType typeId="1dca13a9-3ccb-4a37-bdcb-b8da09db565d" valueTypeId="c60fbad3-7aa8-4528-a027-27336588912c"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="ae0edf51-d2c2-4488-a992-7787312b1df4" extendedConfigurationObject="00672e15-008c-49f6-89d3-d71ec5d4df3c">
+      <name>Свойство</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="e34c6e9b-d458-43ed-9de3-f8daf620f53c" extendedConfigurationObject="515c5b7e-2abb-4a33-9d4b-3bebd39ff5d5">
+      <name>Значение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Characteristic.ДополнительныеРеквизитыИСведения</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="ad5d1b09-3208-4d92-bdbd-20ecf378e7ad" extendedConfigurationObject="ada8c4c4-e2e3-494b-9651-3a2ffce216d8">
+      <name>ТекстоваяСтрока</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers/>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
   <commands uuid="e04784c8-ae93-49f8-80cf-ac00fa76bfe7">
     <name>саУНФ_НоменклатураОМА</name>
     <synonym>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f20696f8-5cc5-4c5e-a5be-4f7fd1e55e9e">
+  <producedTypes>
+    <objectType typeId="acf1f12b-3aff-40a9-8a1f-45b2725deea9" valueTypeId="4691106c-ea2b-4dd7-9685-6afe2ae0c7cb"/>
+    <managerType typeId="4de445da-97f1-447e-99db-b3f3e560ecad" valueTypeId="1eaa0ae3-4238-4a3a-b439-98c5622695b8"/>
+  </producedTypes>
+  <name>ПечатьГарантийногоТалона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать гарантийного талона</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="98f2cd5c-bcdb-44de-a3d3-5bc0f0f076d5">
+    <name>ПФ_MXL_ГарантийныйТалонФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантийный талон</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

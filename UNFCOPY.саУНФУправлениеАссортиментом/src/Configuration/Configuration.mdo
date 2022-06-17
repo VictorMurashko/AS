@@ -321,6 +321,7 @@
   <dataProcessors>DataProcessor.ИсправлениеНомеровДокументов</dataProcessors>
   <dataProcessors>DataProcessor.саУНФ_ПечатьQR</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаПрограммы</dataProcessors>
+  <dataProcessors>DataProcessor.ПечатьГарантийногоТалона</dataProcessors>
   <informationRegisters>InformationRegister.саУНФ_НормыАссортимента</informationRegisters>
   <informationRegisters>InformationRegister.caУНФ_ФилиалыДляАвтозаказа</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>

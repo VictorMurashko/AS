@@ -48,7 +48,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="732fd056-bbba-4657-bf02-130bac64f32a" extendedConfigurationObject="2e33dd49-eee5-4cf8-b315-72bf4d578b18">
     <name>СостояниеЗаказа</name>
@@ -62,7 +61,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="f28b5674-3762-4fc1-8093-81d60c41e4e4" extendedConfigurationObject="770c91af-6239-4137-b6ae-11ae314e0f36">
     <name>ВариантЗавершения</name>
@@ -76,7 +74,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="87ecc8e7-b28f-4469-9220-02f29fdf559c" extendedConfigurationObject="3164e35f-3601-42b5-ba0d-68001304ec8b">
     <name>ВидЗаказа</name>
@@ -90,7 +87,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e3fae834-057d-4522-ad78-ecb8266deea7" extendedConfigurationObject="fd1e7d34-4bc2-4c14-b4a7-bdb058ca9024">
     <name>ВидОперации</name>
@@ -104,7 +100,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="3d87ea89-0460-45fc-a1b7-4ee495ec443d" extendedConfigurationObject="a9208501-82e3-440e-b5d9-c5db36b9782d">
     <name>АдресДоставки</name>
@@ -121,7 +116,6 @@
         </stringQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a209fcee-617a-4635-9cd7-13afa1967f3e" extendedConfigurationObject="e9e03101-b170-4fdc-a01c-996193bbb1ab">
     <name>ДатаОтгрузки</name>
@@ -138,7 +132,6 @@
         </dateQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="4bdf8dc5-468f-48a4-81bd-ade856c354f0" extendedConfigurationObject="c037ce80-438d-4bd5-a229-6b1018139d89">
     <name>СтруктурнаяЕдиницаПродажи</name>
@@ -152,7 +145,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a1782e5d-e390-4422-a813-c3330d511360" extendedConfigurationObject="8f45e402-16cf-4c91-8898-d28dd358ea75">
     <name>Объем</name>
@@ -166,7 +158,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="dfa7c70b-dd83-43b6-9dce-1815df8e5d07" extendedConfigurationObject="d2eeeef4-dd3b-4151-b7f9-46f5f9623778">
     <name>Вес</name>
@@ -180,7 +171,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="432409bf-e1f5-4bd6-a047-48453421e0b3" extendedConfigurationObject="a00cebf6-e888-4884-a539-91933fb5e677">
     <name>СуммаДокумента</name>
@@ -199,7 +189,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a7d46b45-9531-44a9-8a3b-ad1fae3b97fc">
     <name>саУНФ_МаршрутныйЛист</name>
@@ -229,7 +218,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="73263a28-9a9f-4f48-b8db-4b13e3b1fd2b" extendedConfigurationObject="1864a4fa-3bca-4347-bf6a-82bdf3e87b6f">
     <name>Договор</name>
@@ -243,7 +231,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e4be943c-d66f-404e-97cc-9d1d38453682">
     <name>ПАК_МаршрутныйЛист</name>
@@ -276,7 +263,6 @@
         </dateQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="233b9b01-3bcd-4c0e-9411-596468c962d6" extendedConfigurationObject="2661b775-837f-4bb5-9095-897d90b6d6d5">
     <name>ВремяДоставкиПо</name>
@@ -293,7 +279,6 @@
         </dateQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="6a061e55-9488-4de2-b91d-1e71e8422ed0" extendedConfigurationObject="1a6f8cc9-3b70-455f-827e-97ec37be1b9a">
     <name>ЗонаТариф</name>
@@ -307,7 +292,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b4eb3ead-ba24-4677-b35a-06a011361c11" extendedConfigurationObject="c5b7ecca-3342-40ee-8907-1b0f0c68a491">
     <name>СпособДоставки</name>
@@ -321,7 +305,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="fc235261-6266-4f1c-83b4-3bc415476fc1" extendedConfigurationObject="41e5d6b6-26d1-4ab7-9cfd-aa6cb67d109c">
     <name>СуммаВключаетНДС</name>
@@ -335,7 +318,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e84dd476-22f8-4f9b-9c7a-bce39af6ff5c">
     <name>саУНФ_НДС</name>
@@ -409,7 +391,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="949a8b33-b366-4793-b08c-cadd85d77b16" extendedConfigurationObject="c8160045-cd73-4412-83ba-524064f0935b">
     <name>Курьер</name>
@@ -423,7 +404,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="9ef3a606-3b07-403a-8fa5-1216732ff647">
     <name>ТелефонКурьера</name>
@@ -492,7 +472,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="654bb8aa-c5eb-46f2-bffb-2b351ddc232c" extendedConfigurationObject="f8e6c98e-6d2a-4151-8c75-4675e19601f6">
     <name>АдресДоставкиЗначенияПолей</name>
@@ -507,7 +486,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a9f1fec7-c0c9-4dd9-a105-892c64a428e2" extendedConfigurationObject="96ef11fb-66bd-4085-a2c7-c266a9459c52">
     <name>АдресДоставкиЗначение</name>
@@ -522,7 +500,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c795d590-71a5-4947-aab5-6b689b7c67c3">
     <name>Автомобиль</name>
@@ -572,7 +549,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="52e91bb5-6a88-4daa-9fdb-620f861275e5">
     <name>НомерБланка</name>
@@ -700,7 +676,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="2370773f-952a-4ca5-af9f-1d1ffe1c4454">
     <name>ВодительПосторонний</name>
@@ -822,7 +797,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="243836b8-e68a-4b5c-b0ae-ae77f74fbcc6" extendedConfigurationObject="a83a9f6f-42b4-47f7-a3fa-239d478073c0">
     <name>ЗапланироватьОплату</name>
@@ -836,7 +810,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="29c7b1e9-3ea9-402a-a395-0ff280a00040" extendedConfigurationObject="481bb258-bbe5-4a53-89fc-2cdbf9bc1ed3">
     <name>Автор</name>
@@ -850,7 +823,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="b0c2ffeb-6a72-4b35-a4e1-09546bc283ef" extendedConfigurationObject="571d8f35-5093-45ef-ac32-348e93ef2294">
     <name>БанковскийСчет</name>
@@ -864,7 +836,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="e6ceb173-cb88-4f1d-8331-d6b1cda034c6" extendedConfigurationObject="de9cbba2-552f-4ac2-9cfa-b3d5587d3ef8">
     <name>ВидРабот</name>
@@ -878,7 +849,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="26c39e31-d69b-4ccf-bf9b-533fef41f819" extendedConfigurationObject="12252dd2-70d5-4187-9abf-2af22389a51f">
     <name>ВидСкидкиНаценки</name>
@@ -892,7 +862,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a5a96622-9d27-400c-83f1-9aa405dcaec9" extendedConfigurationObject="852f28be-4055-4b73-91c4-758c93071df6">
     <name>ВидЦен</name>
@@ -906,7 +875,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="454e89c4-122a-4a7b-9002-58abaa1d6844" extendedConfigurationObject="a5bd6e48-04c6-4b69-947f-5933fbd837ad">
     <name>Заметки</name>
@@ -921,7 +889,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="24c877d1-d4ee-41ef-8b04-c8056a7bbc70" extendedConfigurationObject="40b29a9d-d013-4561-9f2c-c88ad5a45fff">
     <name>Касса</name>
@@ -935,7 +902,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="a4b8722d-60d3-4870-ae7f-e40b8e0bff01" extendedConfigurationObject="d67281b6-66b8-4c76-adc4-56ce97287e4b">
     <name>Кратность</name>
@@ -953,7 +919,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="d73c2235-4e6b-4381-aa44-e901c62a6fd7" extendedConfigurationObject="59921b6a-7a85-41a3-8a29-b63f8baf2b28">
     <name>КонтактноеЛицо</name>
@@ -968,7 +933,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1f84a04c-dfe8-4bbf-b54e-0b98aeb6f5bc" extendedConfigurationObject="807428cd-6b50-4247-b2f8-2ccebeff907a">
     <name>Курс</name>
@@ -987,7 +951,6 @@
         </numberQualifiers>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="3d25cf05-3f9b-4606-b602-c899c5774458" extendedConfigurationObject="7e47d7a2-4986-47c2-aa54-f676fcb61081">
     <name>НДСВключатьВСтоимость</name>
@@ -1001,7 +964,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="fe1c13cb-abe9-421a-83be-36922a7f8d3b" extendedConfigurationObject="ba7dcb3b-b8b9-4d44-ab5f-56f7a228f10d">
     <name>Организация</name>
@@ -1015,7 +977,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="1c92ab08-1a5a-43e8-916d-c9498b06d858" extendedConfigurationObject="fbc829c4-1bcd-4808-b01b-6b36c9122563">
     <name>Проект</name>
@@ -1029,7 +990,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="5cad110e-adcc-40ed-ba63-92a867c30ac2" extendedConfigurationObject="76453cfb-cbad-4fd8-b92d-21fb31ff16b2">
     <name>Событие</name>
@@ -1043,7 +1003,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="10ee265f-1bf2-4f3e-94b6-2615b677755d" extendedConfigurationObject="eb6369ed-d980-4c8a-b9c5-bb684afd3f2b">
     <name>ТипДенежныхСредств</name>
@@ -1057,7 +1016,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="c38368f0-982b-421a-b851-13d666113e46" extendedConfigurationObject="f7e1353a-c752-4e07-8b91-0b2c45ef7208">
     <name>Ячейка</name>
@@ -1071,7 +1029,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="ca659af6-3466-4db0-ae37-1e3dfc544de9">
     <name>НомерЗаказаОМА</name>
@@ -1107,7 +1064,6 @@
         <stringQualifiers/>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <attributes uuid="7914f57b-da6b-438c-ad04-4d9f18a417e8" extendedConfigurationObject="1d56c0c2-9db9-4723-9d5e-a7eca6c2c7f7">
     <name>ДисконтнаяКарта</name>
@@ -1121,7 +1077,6 @@
         </types>
       </typeExtension>
     </extension>
-    <type/>
   </attributes>
   <forms uuid="b27830ef-5b99-4808-89b4-822598ae2081" extendedConfigurationObject="ebb83fc7-27e0-4a96-8ec9-174b79894203">
     <name>ФормаДокумента</name>
@@ -1166,7 +1121,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="d8cbcc62-0a7a-49d4-80e8-6c95404da861" extendedConfigurationObject="5ade3171-7f5a-4acd-b40f-4d64c9c01f91">
       <name>СуммаНДС</name>
@@ -1185,7 +1139,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="53b9a6a6-7890-4dc9-b897-c52c7bec6285" extendedConfigurationObject="a90219fb-0f6b-4251-a2cd-9cbdef234592">
       <name>Всего</name>
@@ -1204,7 +1157,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="47b8612d-11ef-44e0-9847-b2809570196e" extendedConfigurationObject="28f6394b-43df-422c-bc24-88973f4e6c54">
       <name>Номенклатура</name>
@@ -1218,7 +1170,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="f2d18696-9dfc-4d1f-ab0a-7cd7d817e1ee" extendedConfigurationObject="eab6261f-3bbf-4b7b-a320-ba7c54502cf0">
       <name>Количество</name>
@@ -1237,7 +1188,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="88c20abd-0d94-4c2c-a9ee-5d49df1e71ef" extendedConfigurationObject="e64cc8ee-4dc5-480c-acb0-145322d9d2ae">
       <name>ЕдиницаИзмерения</name>
@@ -1251,7 +1201,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="c9b42244-ec12-48dc-b057-21c6cdcbb2b4" extendedConfigurationObject="97e4302d-b36e-410d-ba77-a3719ba36e4c">
       <name>Вес</name>
@@ -1265,7 +1214,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="a5a177ae-be81-4f1c-9020-6d8e3d287285" extendedConfigurationObject="2bf717df-ff11-40be-ae4a-83f7dd05a082">
       <name>Резерв</name>
@@ -1284,7 +1232,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="8dc7609b-0998-4e19-aa3f-66285d1a9463" extendedConfigurationObject="bd365b51-d408-43d0-b319-57a41944d0b9">
       <name>Цена</name>
@@ -1303,7 +1250,6 @@
           </numberQualifiers>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="3330905b-1f82-442b-a794-124dde7f5fd9" extendedConfigurationObject="a388309a-394f-4bbc-bc04-855057b75dee">
       <name>Партия</name>
@@ -1317,7 +1263,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
   </tabularSections>
   <tabularSections uuid="23b3aa1a-dbe2-4968-9687-6d0b7744ae46" extendedConfigurationObject="1d993204-138e-49b5-8d22-d687ca896985">
@@ -1342,7 +1287,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
     <attributes uuid="790bd23c-7b98-4cc7-8c4b-b721ad567241" extendedConfigurationObject="d9397b7b-368a-40fe-8906-80e905552446">
       <name>Значение</name>
@@ -1356,7 +1300,6 @@
           </types>
         </typeExtension>
       </extension>
-      <type/>
     </attributes>
   </tabularSections>
 </mdclass:Document>
